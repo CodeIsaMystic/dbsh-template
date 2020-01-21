@@ -14,15 +14,22 @@ module.exports = {
   mode: 'development',
   watch: true,
   module: {
-    rules: [
-      {
-        test: /\.css$/i,
-        use: [
-          'style-loader',
-          'css-loader',
-          { loader: 'postcss-loader', options: { plugins: postCSSPlugins } }
-        ]
-      }
-    ]
+    rules: [{
+      test: /\.css$/i,
+      use: [
+        'style-loader',
+        'css-loader?url=false',
+        {
+          loader: 'postcss-loader',
+          options: {
+            plugins: postCSSPlugins
+          }
+        }
+      ]
+    }]
   }
 };
+// add this short code on the rules:use:
+//            'css-loader?url=false',
+//right after 'style-loader',  and before [loader:]
+// to manage ourself our bg-img on a css file
