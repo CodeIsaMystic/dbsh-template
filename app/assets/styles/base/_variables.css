@@ -3,7 +3,24 @@
 **********************/
 $documentBackground: #fff;
 $mainOrange: #F9930E;
-$mainBlue: #2B20AD;
+$mainBlue: #09053C;
+/* #2B20AD
+dark 
+orange  #563000
+        #291700
+blue    #09053C
+        #03011C
+
+
+need to define what will be the final colors
+text , bg , an secondary-color 
+
+
+
+
+
+
+*/
 $textColor: #FFCD8B;
 /* #FFDFB5  */
 
@@ -13,6 +30,10 @@ $accentLight: #8F89E1;
 /*  #7CE3A5  */
 $accent: #2B20AD;
 /*  #0AB34E  */
+
+
+
+
 
 /*  palette orange / bleu 
 comments = verte couleur additionnelle
