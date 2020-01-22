@@ -8,8 +8,6 @@ body {
   padding: 0;
   font-family: 'roboto', 'open-sans', sans-serif;
   color: $mainBlue;
-  /*background-color: red;
-  $documentBackgroundColor;*/
 }
 
 img {
