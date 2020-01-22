@@ -1,5 +1,5 @@
 {
-  "name": "db-sprots-experience",
+  "name": "db-sports-experience",
   "version": "1.0.0",
   "description": "Building a porfolio website for a coach",
   "main": "index.js",
@@ -12,7 +12,7 @@
     "url": "git+https://github.com/CodeIsaMystic/PostCSS-starter-pack.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "JoWd",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/CodeIsaMystic/PostCSS-starter-pack/issues"
