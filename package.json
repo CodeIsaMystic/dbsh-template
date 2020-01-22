@@ -1,7 +1,7 @@
 {
-  "name": "postcss-starter-pack",
+  "name": "db-sprots-experience",
   "version": "1.0.0",
-  "description": "Building a starter pack with PostCSS , Gulpfile , NPM , Npm Plugins",
+  "description": "Building a porfolio website for a coach",
   "main": "index.js",
   "scripts": {
     "dev": "webpack",
