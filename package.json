@@ -4,7 +4,7 @@
   "description": "Building a porfolio website for a coach",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack",
+    "dev": "webpack-dev-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -31,6 +31,7 @@
     "postcss-simple-vars": "^5.0.2",
     "style-loader": "^1.1.3",
     "webpack": "^4.41.5",
-    "webpack-cli": "^3.3.10"
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
   }
 }
