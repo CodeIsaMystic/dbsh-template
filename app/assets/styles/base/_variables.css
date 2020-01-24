@@ -1,27 +1,27 @@
 /**********************
         colors
 **********************/
-$documentBackground: #fff;
 $mainOrange: #F9930E;
 $mainBlue: #09053C;
 $mainDarkBlue: #03011C;
+$mainLightGray: #B6B2ED;
+
+/*********************************************
+**********************************************
+**********************************************
+*********************************************/
+
+$mainLightOrange: #FFDFB5;
 $mainLightBlue: #B6B2ED;
+$documentBackground: #fff;
 /* #2B20AD
 dark 
 orange  #563000
         #291700
 blue    #09053C
         #03011C
-
-
 need to define what will be the final colors
 text , bg , an secondary-color 
-
-
-
-
-
-
 */
 $textColor: #FFCD8B;
 /* #FFDFB5  */

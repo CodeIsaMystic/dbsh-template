@@ -1,5 +1,5 @@
 .large-hero {
-  border-bottom: 10px solid #ccc;
+  border-bottom: 10px solid #B6B2ED;
   position: relative;
 
   &__image {
@@ -56,7 +56,7 @@
     max-width: 30rem;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 45px;
+    padding-bottom: 35px;
 
     @mixin atMedium {
       font-size: 1.875rem;
