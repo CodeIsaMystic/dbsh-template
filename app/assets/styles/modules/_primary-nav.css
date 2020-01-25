@@ -12,17 +12,13 @@
     }
   }
 
-  /*  mixin syntaxe modified  
-  @mixin clearfix */
-  ul::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-
   ul {
     margin: 0;
     padding: 0;
+  }
+
+  ul::after {
+    @mixin clearfix;
   }
 
 
@@ -47,13 +43,13 @@
   }
 
   a {
-    color: #FFF;
+    color: $mainTextColor;
     font-weight: 300;
     text-decoration: none;
     display: block;
     padding: 5px 8px;
     font-size: .8rem;
-    background-color: rgba($accent, .8);
+    background-color: rgba($mainDarkBlue, .8);
 
     @mixin atMedium {
       font-size: 1rem;
@@ -61,7 +57,7 @@
       background-color: transparent;
 
       &.is-current-link {
-        color: #fabb69;
+        color: $mainOrange;
       }
     }
   }

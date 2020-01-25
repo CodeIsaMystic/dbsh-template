@@ -1,43 +1,52 @@
 /**********************
-        colors
+  LIGHT THEME COLORS        
 **********************/
 $mainOrange: #F9930E;
-$mainBlue: #09053C;
 $mainDarkBlue: #03011C;
 $mainLightGray: #F6F6FF;
+$mainTextColor: #FFFFFF;
+
+
+/***************************
+
+DO I NEED A BODY BG COLOR ???
+
+***************************/
+
+
+
+/************************
+      DARK THEME 
+************************/
+/*
+$main:  ;
+$secondary: ;
+$light: ;
+$textColor : ;
+*/
+
+
 
 /*********************************************
 **********************************************
+      ADDITIONAL THEME COLORS
 **********************************************
 *********************************************/
 
-$mainLightOrange: #FFDFB5;
+
+/*
+$mainBlue: #2B20AD;
+$mainSemiLightBlue: #8F89E1;
 $mainLightBlue: #B6B2ED;
-$mainLightGreen: #7CE3A5;
-$documentBackground: #fff;
-/* #2B20AD
-dark 
-orange  #563000
-        #291700
-blue    #09053C
-        #03011C
-need to define what will be the final colors
-text , bg , an secondary-color 
-*/
-$textColor: #FFCD8B;
-/* #FFDFB5  */
+$mainSemiDarkBlue: #09053C;
 
-$bgColor: #B6B2ED;
-/*  #A9EEC5  */
-$accentLight: #8F89E1;
-/*  #7CE3A5  */
-$accent: #2B20AD;
-/*  #0AB34E  */
+$mainSemiLightOrange: #FFCD8B;
+$mainLightOrange: #FFDFB5;
+$mainSemiDarkOrange: #563000;
+$mainDarkOrange: #291700;
 
+$sucessGreen: #0AB34E;
+$sucessLightGreen:#A9EEC5;  
+$sucessSemiLightGreen: #7CE3A5;
 
-
-
-
-/*  palette orange / bleu 
-comments = verte couleur additionnelle
 */
