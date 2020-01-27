@@ -8,6 +8,8 @@ new Modal()
 
 let stickyHeader = new StickyHeader()
 
+new RevealOnScroll(document.querySelectorAll(".reveal-img1"), 50)
+new RevealOnScroll(document.querySelectorAll(".reveal-img2"), 50)
 new RevealOnScroll(document.querySelectorAll(".service-item"), 75)
 new RevealOnScroll(document.querySelectorAll(".testimonial"), 60)
 
