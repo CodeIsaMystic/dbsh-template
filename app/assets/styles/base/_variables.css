@@ -1,7 +1,9 @@
 /**********************
-  LIGHT THEME COLORS        
+LIGHT THEME COLORS        
 **********************/
 $mainOrange: #F9930E;
+$mainSemiDarkOrange: #563000;
+$mainSemiDarkBlue: #09053C;
 $mainDarkBlue: #03011C;
 $mainLightGray: #F6F6FF;
 $mainTextColor: #FFFFFF;
@@ -16,7 +18,7 @@ DO I NEED A BODY BG COLOR ???
 
 
 /************************
-      DARK THEME 
+DARK THEME 
 ************************/
 /*
 $main:  ;
@@ -29,7 +31,7 @@ $textColor : ;
 
 /*********************************************
 **********************************************
-      ADDITIONAL THEME COLORS
+ADDITIONAL THEME COLORS
 **********************************************
 *********************************************/
 
@@ -38,11 +40,9 @@ $textColor : ;
 $mainBlue: #2B20AD;
 $mainSemiLightBlue: #8F89E1;
 $mainLightBlue: #B6B2ED;
-$mainSemiDarkBlue: #09053C;
 
 $mainSemiLightOrange: #FFCD8B;
 $mainLightOrange: #FFDFB5;
-$mainSemiDarkOrange: #563000;
 $mainDarkOrange: #291700;
 
 $sucessGreen: #0AB34E;

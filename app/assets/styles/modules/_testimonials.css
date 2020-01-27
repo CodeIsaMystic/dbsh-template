@@ -24,7 +24,7 @@
   }
 
   &__title {
-    color: $mainDarkBlue;
+    color: $mainSemiDarkBlue;
     text-align: center;
     font-size: 1.5rem;
     font-weight: 500;
@@ -32,7 +32,7 @@
   }
 
   &__subtitle {
-    color: $mainOrange;
+    color: $mainSemiDarkOrange;
     text-align: center;
     font-weight: 400;
     font-size: 0.9375rem;

@@ -5,7 +5,7 @@
     padding: 4.5rem 0;
   }
   &--orangeGradient {
-    background: linear-gradient(214.51061644751348deg, rgba(255, 223, 181, 1) 22.7917768341793%, rgba(255, 223, 181, 1) 50.345933350918045%, rgba(255, 255, 255, 1) 84.59549238574283%);
+    background: linear-gradient(214.5deg, rgba(246,246,255, 1) 22.8%, rgba(246,246,255, 1) 50.3%, rgba(255, 255, 255, 1) 84.6%);
     color: $mainDarkBlue;
   }
   
@@ -24,11 +24,11 @@
       padding-bottom: 4.5rem;
     }
   }
-
+/*
   &--blue {
     background-color: $mainDarkBlue;
     color: $mainTextColor;
-  }
+  }*/
 
   &--testimonials {
     background-color: #e0e6ef;
