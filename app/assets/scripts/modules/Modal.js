@@ -8,9 +8,6 @@ class Modal {
   }
 
   events() {
-    // listen for open click
-    this.openModalButtons.forEach(el => el.addEventListener("click", e => this.openTheModal(e)))
-
     // listen for close click
     this.closeIcon.addEventListener("click", () => this.closeTheModal())
 
@@ -25,7 +22,6 @@ class Modal {
   }
 
   openTheModal(e) {
-    e.preventDefault()
     this.modal.classList.add("modal--is-visible")
   }
 
