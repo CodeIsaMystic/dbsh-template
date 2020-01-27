@@ -30,7 +30,9 @@
     <div class="wrapper">
       <!-- icon--db sports-->
       <div class="site-header__logo">
-        <img src="assets/img/icons/logo-DbSports&Events.svg" />
+        <a href="#home">
+          <img src="assets/img/icons/logo-DbSports&Events.svg" />
+        </a>
       </div>
       <!-- burger btn-->
       <div class="site-header__menu-icon">
@@ -39,14 +41,14 @@
       <!-- menu-content-->
       <div class="site-header__menu-content">
         <div class="site-header__btn-container">
-          <a href="#" class="btn">Commences Aujourd'hui!</a>
+          <a href="#" class="btn open-modal">Commences Aujourd'hui!</a>
         </div>
 
         <nav class="primary-nav primary-nav--pull-right">
           <ul>
-            <li><a href="#about">Coach</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#temoignages">Témoignages</a></li>
+            <li><a href="#about" id="about-link">Coach</a></li>
+            <li><a href="#services" id="services-link">Services</a></li>
+            <li><a href="#testimonials" id="testimonials-link">Témoignages</a></li>
           </ul>
         </nav>
       </div>
@@ -56,7 +58,7 @@
 
 
   <!-- large-hero section -->
-  <div class="large-hero">
+  <div class="large-hero" id="home">
     <!--  hero images  -->
     <picture>
       <source srcset="assets/img/hero-large.jpg 1913w, assets/img/hero-large-hi-dpi.jpg 3826w"
@@ -78,7 +80,7 @@
           Une méthode adaptée sur-mesure...
         </p>
         <p>
-          <a href="#" class="btn btn--orange btn--large">
+          <a href="#" class="btn btn--orange btn--large open-modal">
             Commences Aujourd'hui!
           </a>
         </p>
@@ -88,7 +90,7 @@
   <!--  / large-hero Section  -->
 
   <!-- About section -->
-  <div id="about-link" class="page-section">
+  <div id="about" class="page-section" data-matching-link="#about-link">
     <div class="wrapper">
       <!-- headline -->
       <h2 class="headline headline--centered headline--light headline--b-margin-small">" J'ai fait mes premiers pas
@@ -157,7 +159,7 @@
   <!--   / About section   -->
 
   <!--  Services section  -->
-  <div id="services" class="page-section page-section--orangeGradient">
+  <div id="services" class="page-section page-section--orangeGradient" data-matching-link="#services-link">
     <div class="wrapper">
       <h2 class="section-title"><img class="section-title__icon" src="assets/img/icons/star.svg"> Nos
         <strong>Services</strong></h2>
@@ -204,7 +206,8 @@
 
 
   <!--  Testimonials section  -->
-  <div id="testimonials" class="page-section page-section--no-b-padding-until-large page-section--testimonials">
+  <div id="testimonials" class="page-section page-section--no-b-padding-until-large page-section--testimonials"
+    data-matching-link="#testimonials-link">
     <div class="wrapper wrapper--no-padding-until-large">
       <h2 class="section-title section-title--blue"><img class="section-title__icon" src="assets/img/icons/comment.svg">
         <strong>Témoignages</strong></h2>
@@ -259,11 +262,6 @@
   </div>
   <!--   /  Testimonials section  -->
 
-
-
-
-
-
   <!--  Footer section   -->
   <footer class="site-footer">
     <div class="wrapper">
@@ -272,7 +270,7 @@
       <span class="site-footer__text">
         Copyright &copy; 2019 DB sports experience. All rights reserved.
       </span>
-      <a href="#" class="btn">Commences Aujourd'hui!</a>
+      <a href="#" class="btn open-modal">Commences Aujourd'hui!</a>
     </p>
   </footer>
   <!--  / Footer section  -->

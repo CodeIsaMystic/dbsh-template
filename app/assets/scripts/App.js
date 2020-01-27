@@ -1,10 +1,15 @@
 import '../styles/styles.css'
 import MobileMenu from './modules/MobileMenu'
 import RevealOnScroll from './modules/RevealOnScroll'
+import StickyHeader from './modules/StickyHeader'
+import Modal from './modules/Modal'
+
+new Modal()
+
+let stickyHeader = new StickyHeader()
 
 new RevealOnScroll(document.querySelectorAll(".service-item"), 75)
 new RevealOnScroll(document.querySelectorAll(".testimonial"), 60)
-new RevealOnScroll(document.querySelectorAll(".btn--orange"), 50)
 
 
 let mobileMenu = new MobileMenu();

@@ -11,10 +11,10 @@
 
   @mixin atMedium {
     position: fixed;
-    background-color: rgba($mainDarkBlue, .40);
+    background-color: rgba($mainDarkBlue, .20);
 
     &--dark {
-      background-color: rgba(23, 51, 72, .85);
+      background-color: rgba($mainDarkBlue, .55);
     }
   }
 
@@ -32,14 +32,15 @@
     transition: transform .5s ease-out;
     transform-origin: 50% 0;
     background-color: $mainDarkBlue;
-    padding: 25px 36px;
+    padding: 15px 25px;
+    cursor: pointer;
 
     @mixin atMedium {
       left: auto;
       transform: translateX(0);
 
       .site-header--dark & {
-        transform: scale(.55);
+        transform: scale(.65);
       }
     }
   }
@@ -55,6 +56,7 @@
     z-index: 10;
     top: 10px;
     right: 10px;
+    cursor: pointer;
 
     &::before {
       content: '';
@@ -121,10 +123,13 @@
     transition: all .3s ease-out;
     position: relative;
 
+
     @mixin atMedium {
       padding-top: 0;
       opacity: 1;
       transform: scale(1);
+      cursor: pointer;
+      z-index: 1;
     }
 
     &--is-visible {

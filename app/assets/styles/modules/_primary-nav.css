@@ -27,6 +27,11 @@
     display: inline-block;
     padding-right: 7px;
 
+
+
+
+
+
     @mixin atMedium {
       padding-right: 30px;
       float: left;
@@ -58,6 +63,7 @@
 
       &.is-current-link {
         color: $mainOrange;
+        font-weight: 400;
       }
     }
   }
