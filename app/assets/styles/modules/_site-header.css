@@ -3,7 +3,7 @@
   position: absolute;
   width: 100%;
   z-index: 2;
-  transition: background-color .3s ease-out;
+  transition: background-color .4s ease-out;
 
   &--is-expanded {
     background-color: rgba($mainDarkBlue, .55);
@@ -11,7 +11,7 @@
 
   @mixin atMedium {
     position: fixed;
-    background-color: rgba($mainDarkBlue, .3);
+    background-color: rgba($mainDarkBlue, .55);
 
     &--dark {
       background-color: rgba(23, 51, 72, .85);
@@ -113,18 +113,17 @@
 
 
   &__menu-content {
+    z-index: -10;
+    padding-top: 90px;
+    text-align: center;
     opacity: 0;
     transform: scale(1.3);
     transition: all .3s ease-out;
     position: relative;
-    z-index: -10;
-    padding-top: 90px;
-    text-align: center;
 
     @mixin atMedium {
-      opacity: 1;
-      z-index: 1;
       padding-top: 0;
+      opacity: 1;
       transform: scale(1);
     }
 

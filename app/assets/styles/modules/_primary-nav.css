@@ -49,7 +49,7 @@
     display: block;
     padding: 5px 8px;
     font-size: .8rem;
-    background-color: rgba($mainDarkBlue, .8);
+    background-color: rgba($mainDarkBlue, .85);
 
     @mixin atMedium {
       font-size: 1rem;
