@@ -17,7 +17,7 @@ const postCSSPlugins = [
 class RunAfterCompile {
   apply(compiler) {
     compiler.hooks.done.tap('Copy images', function() {
-      fse.copySync('./app/assets/img', './dist/assets/img');
+      fse.copySync('./app/assets/img', './docs/assets/img');
     });
   }
 }
@@ -59,6 +59,7 @@ let config = {
   }
 };
 
+// dev process
 if (currentTask == 'dev') {
   cssConfig.use.unshift('style-loader');
   config.output = {
@@ -77,6 +78,7 @@ if (currentTask == 'dev') {
   config.mode = 'development';
 }
 
+// build process
 if (currentTask == 'build') {
   config.module.rules.push({
     test: /\.js$/,
@@ -94,7 +96,7 @@ if (currentTask == 'build') {
   config.output = {
     filename: '[name].[chunkhash].js',
     chunkFilename: '[name].[chunkhash].js',
-    path: path.resolve(__dirname, 'dist')
+    path: path.resolve(__dirname, 'docs')
   };
   config.mode = 'production';
   config.optimization = {
