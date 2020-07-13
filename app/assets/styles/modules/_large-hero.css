@@ -17,10 +17,14 @@
   }
 
   &__title {
-    font-weight: 300;
+    font-weight: 900;
     color: $mainTextColor;
     margin: 0;
-    font-size: 2.4rem;
+    font-size: 1.8rem;
+
+    @mixin atXSmall {
+      font-size: 2.4rem;
+    }
 
     @mixin atMedium {
       font-size: 2.9rem;
@@ -34,12 +38,21 @@
 
   &__subtitle {
     font-weight: 300;
-    color: $mainTextColor;
-    font-size: 2rem;
-    margin: 0;
+    color: $mainOrange;
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, .3);
+    font-size: 1.2rem;
+    margin: 0;      
+    padding-top: .5rem;
 
+    
+    @mixin atXSmall {
+      font-size: 2rem;    
+      padding-top: 1rem;
+    }
+    
     @mixin atMedium {
       font-size: 2.4rem;
+      padding-top: 1.2rem;
     }
 
     @mixin atLarge {
@@ -50,13 +63,23 @@
 
   &__description {
     color: $mainTextColor;
-    font-size: 1.4rem;
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, .3);
     font-weight: 300;
+    font-size: 1.2rem;
     text-shadow: 2px 2px 0 rgba(0, 0, 0, .1);
     max-width: 30rem;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 35px;
+    padding-bottom: 5px;
+
+    @mixin atXSmall {
+      padding-bottom: 18px;
+    }
+
+    @mixin atSmall {
+      font-size: 1.4rem;
+      padding-bottom: 35px;
+    }
 
     @mixin atMedium {
       font-size: 1.875rem;

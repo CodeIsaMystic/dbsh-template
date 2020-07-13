@@ -53,11 +53,11 @@
     text-decoration: none;
     display: block;
     padding: 5px 8px;
-    font-size: .8rem;
+    font-size: 1rem;
     background-color: rgba($mainDarkBlue, .85);
 
     @mixin atMedium {
-      font-size: 1rem;
+      font-size: 1.2rem;
       padding: 12px 0;
       background-color: transparent;
 

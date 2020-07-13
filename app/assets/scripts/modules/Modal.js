@@ -1,32 +1,32 @@
 class Modal {
   constructor() {
-    this.injectHTML()
-    this.modal = document.querySelector(".modal")
-    this.closeIcon = document.querySelector(".modal__close")
-    this.openModalButtons = document.querySelectorAll(".open-modal")
-    this.events()
+    this.injectHTML();
+    this.modal = document.querySelector(".modal");
+    this.closeIcon = document.querySelector(".modal__close");
+    this.openModalButtons = document.querySelectorAll(".open-modal");
+    this.events();
   }
 
   events() {
     // listen for close click
-    this.closeIcon.addEventListener("click", () => this.closeTheModal())
+    this.closeIcon.addEventListener("click", () => this.closeTheModal());
 
     // pushes any key
-    document.addEventListener("keyup", e => this.keyPressHandler(e))
+    document.addEventListener("keyup", e => this.keyPressHandler(e));
   }
 
   keyPressHandler(e) {
     if (e.keyCode == 27) {
-      this.closeTheModal()
+      this.closeTheModal();
     }
   }
 
   openTheModal(e) {
-    this.modal.classList.add("modal--is-visible")
+    this.modal.classList.add("modal--is-visible");
   }
 
   closeTheModal() {
-    this.modal.classList.remove("modal--is-visible")
+    this.modal.classList.remove("modal--is-visible");
   }
 
   injectHTML() {
@@ -47,8 +47,8 @@ class Modal {
     </div>
     <div class="modal__close">X</div>
   </div>
-    `)
+    `);
   }
 }
 
-export default Modal
+export default Modal;
