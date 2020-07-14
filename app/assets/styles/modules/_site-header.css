@@ -6,15 +6,15 @@
   transition: background-color .4s ease-out;
 
   &--is-expanded {
-    background-color: rgba($mainDarkBlue, .55);
+    background-color: rgba($mainDarkBlue, .75);
   }
 
   @mixin atMedium {
     position: fixed;
-    background-color: rgba($mainDarkBlue, .20);
+    background-color: rgba($mainDarkBlue, .30);
 
     &--dark {
-      background-color: rgba($mainDarkBlue, .55);
+      background-color: rgba($mainDarkBlue, .85);
     }
   }
 
@@ -35,7 +35,7 @@
     transition: transform .5s ease-out;
     transform-origin: 50% 0;
     margin-left: 0;
-    padding: 15px 25px;
+    padding: 14px 25px;
     background-color: $mainDarkBlue;
     cursor: pointer;
 
