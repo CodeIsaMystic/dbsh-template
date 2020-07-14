@@ -36,18 +36,18 @@ class Modal {
 
         <!-- Modal title -->
         <h2 class="section-title section-title--blue section-title--less-margin">
-          <img src="assets/img/icons/mail.svg" class="section-title__icon"> 
           Commences <strong>Dès Aujourd'hui</strong> !
         </h2>
 
-        <div class="wrapper wrapper--narrow">
+        <div class="wrapper wrapper--narrow generic-content-container">
 
-          <!-- P description -->
-          <p class="modal__description d-none-until-XSmall">
+          <!-- P description 
+          <p class="d-none-until-XSmall">
           Dès aujourd'hui, tu accèdes au premier <strong>questionnaire d'entrée de Coaching</strong>. C'est gratuit, aucun engagement, cela nous permet déjà de prendre les premières informations nécessaires pour te proposer la méthode adaptée à tes besoins et te conseiller selon tes besoins vers les priorités que tu pourrai mettre en place. 
           </p>
-          <p class="modal__description ">
-          Il suffit de 2 minutes pour remplir ce formulaire et tu auras <strong>ton premier conseil coach sport santé entièrement gratuit</strong>. 
+          -->
+          <p>
+          Seulement 2 minutes pour remplir ce formulaire et tu auras <strong>ton premier conseil coach sport santé entièrement gratuit</strong>. 
           Après l'envoi, tu seras rediriger directement vers le questionnaire. 
           </p>
 
@@ -78,9 +78,8 @@ class Modal {
         </div>
           
       </div>
-  <!--</div>-->
 
-  <div class="modal__close">X</div>
+    <div class="modal__close">X</div>
   </div>
     `);
   }
