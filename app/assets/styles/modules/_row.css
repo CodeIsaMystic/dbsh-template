@@ -18,15 +18,15 @@
     margin-right: -45px;
   }
 
-  &--gutters>div {
+  &--gutters>article {
     padding-right: 65px;
   }
 
-  &--gutters-large>div {
+  &--gutters-large>article {
     padding-right: 100px;
   }
 
-  &--gutters-small>div {
+  &--gutters-small>article {
     padding-right: 45px;
   }
 

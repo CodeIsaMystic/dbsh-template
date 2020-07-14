@@ -47,8 +47,7 @@ class Modal {
           </p>
           -->
           <p>
-          Seulement 2 minutes pour remplir ce formulaire et tu auras <strong>ton premier conseil coach sport santé entièrement gratuit</strong>. 
-          Après l'envoi, tu seras rediriger directement vers le questionnaire. 
+          Seulement 2 minutes pour remplir ce formulaire et tu auras <strong>ton premier conseil coach sport santé entièrement gratuit</strong>.
           </p>
 
           <!-- Form section -->
