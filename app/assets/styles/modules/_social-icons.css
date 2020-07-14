@@ -1,24 +1,24 @@
 .social-icons {
-  text-align: center;
   margin-top: 10px;
-
+  text-align: center;
+  
   @mixin atMedium {
-    margin-top: 0;
+    margin-top: 5px;
   }
-
+  
   &__icon {
     display: inline-block;
     position: relative;
+    width: 32px;
+    height: 32px;
+    margin: auto 5px;
     background-color: $mainOrange;
-    width: 36px;
-    height: 36px;
-    margin: 0 5px 5px 5px;
-
+    
     svg {
       display: block;
       position: absolute;
-      width: 25px;
-      height: 25px;
+      width: 15px;
+      height: 15px;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);

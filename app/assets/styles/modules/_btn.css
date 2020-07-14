@@ -1,9 +1,9 @@
 .btn {
   display: inline-block;
   padding: .5rem .8rem;
-  background-color: $mainDarkBlue;
-  color: $mainTextColor;
   text-decoration: none;
+  color: $mainTextColor;
+  background-color: $mainDarkBlue;
   transition: all 0.7s ease-in-out;
 
   @mixin atXSmall {
@@ -33,4 +33,4 @@
     }
   }
 
-}
+} 

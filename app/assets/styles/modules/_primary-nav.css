@@ -6,36 +6,29 @@
   }
 
 
-  &--pull-right {
-    @mixin atMedium {
-      float: right;
-    }
-  }
-
   ul {
     margin: 0;
     padding: 0;
   }
 
-  ul::after {
-    @mixin clearfix;
-  }
 
 
   li {
-    list-style: none;
     display: inline-block;
-    padding-right: 7px;
-
-
-
-
-
+    margin-top: 5px;
+    padding-right: 10px;
+    list-style: none;
+    
 
     @mixin atMedium {
-      padding-right: 30px;
-      float: left;
       display: block;
+      float: left;
+      margin-top: 0;
+      padding-right: 0;
+    }
+    
+    @mixin atLarge {
+      padding-right: 40px;
     }
   }
 
@@ -43,28 +36,41 @@
     padding-right: 0;
 
     @mixin atMedium {
-      padding-right: 30px;
+      padding-right: 20px;
     }
   }
 
   a {
-    color: $mainTextColor;
-    font-weight: 300;
-    text-decoration: none;
     display: block;
     padding: 5px 8px;
+    text-decoration: none;
     font-size: 1rem;
+    font-weight: 300;
     background-color: rgba($mainDarkBlue, .85);
+    color: $mainTextColor;
 
     @mixin atMedium {
+      display: inline-block;
+      width: 90px;
+      padding: 0;
+      margin: auto;
       font-size: 1.2rem;
-      padding: 12px 0;
       background-color: transparent;
 
-      &.is-current-link {
-        color: $mainOrange;
-        font-weight: 400;
+      &:hover {
+        font-weight: 500;
       }
+
+      &.is-current-link {
+        font-weight: 400;
+        color: $mainOrange;
+      }
+    }
+
+
+    @mixin atLarge {
+      display: block;
+      width: auto;
     }
   }
 }
