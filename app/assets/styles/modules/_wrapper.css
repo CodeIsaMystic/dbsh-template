@@ -15,11 +15,6 @@
     max-width: 976px;
   }
 
-
-  &--narrow {
-    max-width: 900px;
-  }
-
   &--no-padding-until-medium {
     padding-left: 0;
     padding-right: 0;

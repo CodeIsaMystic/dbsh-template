@@ -31,4 +31,14 @@
       font-size: 1.875rem;
     }
   }
+
+  &__sub-title {
+    margin-top: 0;
+    margin-bottom: .4rem;
+    text-align: center;
+
+    @mixin atSmall {
+      text-align: left;
+    }
+  }
 }

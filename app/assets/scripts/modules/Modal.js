@@ -39,7 +39,7 @@ class Modal {
           Commences <strong>Dès Aujourd'hui</strong> !
         </h2>
 
-        <div class="wrapper wrapper--narrow generic-content-container">
+        <div class="wrapper wrapper--medium generic-content-container">
 
           <!-- P description 
           <p class="d-none-until-XSmall">

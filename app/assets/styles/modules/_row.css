@@ -18,15 +18,19 @@
     margin-right: -45px;
   }
 
-  &--gutters>article {
+  &--gutters>article,
+  &--gutters>div,
+  &--gutters>section {
     padding-right: 65px;
   }
 
-  &--gutters-large>article {
+  &--gutters-large>section,
+  &--gutters-large>article,
+  &--gutters-large>div {
     padding-right: 100px;
   }
 
-  &--gutters-small>article {
+  &--gutters-small>div {
     padding-right: 45px;
   }
 
@@ -119,7 +123,5 @@
       float: none;
       display: flex;
     }
-
   }
-
 }
