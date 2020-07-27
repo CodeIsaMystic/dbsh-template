@@ -14,7 +14,7 @@
     margin: auto 5px;
     background-color: $mainOrange;
     
-    svg {
+    & svg {
       display: block;
       position: absolute;
       width: 15px;
