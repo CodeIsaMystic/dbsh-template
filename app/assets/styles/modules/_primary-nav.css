@@ -43,8 +43,11 @@
     text-decoration: none;
     font-size: 1rem;
     font-weight: 300;
+    letter-spacing: 1px;
     background-color: rgba($mainDarkBlue, .85);
     color: $mainTextColor;
+    opacity: .65;
+    transition: all .4s;
 
     @mixin atMedium {
       display: inline-block;
@@ -55,7 +58,7 @@
       background-color: transparent;
 
       &:hover {
-        font-weight: 400;
+        opacity: 1;
       }
 
       &.is-current-link {
