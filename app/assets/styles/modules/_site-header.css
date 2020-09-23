@@ -11,7 +11,7 @@
 
   @mixin atMedium {
     position: fixed;
-    background-color: rgba($mainDarkBlue, .30);
+    background-color: rgba($mainDarkBlue, .50);
 
     &--dark {
       background-color: rgba($mainDarkBlue, .85);

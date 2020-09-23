@@ -41,12 +41,12 @@
     display: block;
     padding: 5px 8px;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: .8rem;
     font-weight: 300;
     letter-spacing: 1px;
     background-color: rgba($mainDarkBlue, .85);
     color: $mainTextColor;
-    opacity: .65;
+    opacity: .85;
     transition: all .4s;
 
     @mixin atMedium {
@@ -54,7 +54,7 @@
       width: 90px;
       padding: 0;
       margin: auto;
-      font-size: 1.2rem;
+      font-size: 1rem;
       background-color: transparent;
 
       &:hover {
