@@ -7,14 +7,13 @@
   box-sizing: inherit;
 }
 html {
+  scroll-behavior: smooth;
   /*  This set the font size of the site for 1rem  */
   font-size: 62.5%;
-  scroll-behavior: smooth;
 }
 
 body {  
   box-sizing: border-box;  
-  font-family: 'Montserrat', sans-serif;
 }
 
 img {
@@ -24,4 +23,13 @@ img {
 
 a {
   text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
 }

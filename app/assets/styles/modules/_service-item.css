@@ -1,8 +1,13 @@
 .service-item {
   position: relative;
-  padding-bottom: 4rem;
+  width: 75%;
+  margin: 0 auto;
 
-  @mixin atSmall {
+  &:not(:last-child) {
+    padding-bottom: 4rem;
+  }
+
+  @mixin atLarge {
     padding-left: 9.4rem;
   }
 
@@ -12,7 +17,7 @@
     height: 6.4rem;
     width: 6.4rem;
 
-    @mixin atSmall {
+    @mixin atLarge {
       position: absolute;
       left: 0;
     }
@@ -25,7 +30,7 @@
     margin-bottom: 1.3rem;
     text-align: center;
 
-    @mixin atSmall {
+    @mixin atLarge {
       text-align: left;
       margin-top: 1em;
       font-size: 3rem;
@@ -37,7 +42,16 @@
     margin-bottom: .65rem;
     text-align: center;
 
-    @mixin atSmall {
+    @mixin atLarge {
+      text-align: left;
+    }
+  }
+  p {
+    text-align: center;
+
+    @mixin atLarge {
+      width: 100%;
+      margin: 0;
       text-align: left;
     }
   }

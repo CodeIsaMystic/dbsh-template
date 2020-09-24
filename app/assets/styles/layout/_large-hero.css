@@ -1,0 +1,85 @@
+.large-hero {
+  position: relative;
+  height: 90vh;
+  width: 100%;
+  background-image: linear-gradient(to right bottom, rgba(0, 0, 0, .75), rgba(0, 0, 0, .15), rgba(0, 0, 0, .95)), url(assets/img/hero-large.jpg);
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  border-bottom: 1rem solid $mainSemiDarkOrange;
+
+
+  &__text-content {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  &__title {
+    display: block;
+    margin: 0;
+    font-size: 5rem;
+    font-weight: 300;
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, .9);
+    color: $mainTextColor;
+
+    animation: moveInLeft 1s ease-out;
+
+    @mixin atMedium {
+      font-size: 6rem;
+    }
+
+    @mixin atLarge {
+      font-size: 7.5rem;
+    }
+  }
+
+  &__subtitle {
+    margin: 0;
+    padding-top: 2.2rem;
+    font-size: 2.5rem;
+    font-weight: 300;
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, .3);
+    color: $mainOrange;
+
+    animation: moveInRight 1s ease-out;
+
+    @mixin atMedium {
+      /*padding-top: 1.4rem;*/
+      font-size: 3.2rem;
+    }
+
+    @mixin atLarge {
+      font-size: 4.6rem;
+    }
+
+  }
+
+  &__description {
+    margin: 0 auto;
+    padding-top: 2rem;
+    font-weight: 300;
+    font-size: 2rem;
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, .3);
+    color: $mainTextColor;
+
+
+    @mixin atSmall {
+      font-size: 2.2rem;
+    }
+
+    @mixin atMedium {
+      font-size: 3rem;
+    }
+  }
+
+  &__btn {
+    margin-top: 3.4rem;
+
+    animation: moveInBottom 1s 1s ease-out;
+  }
+
+}

@@ -2,10 +2,6 @@
 
   @mixin clearfix;
 
-  &--t-padding {
-    padding-top: 8rem;
-  }
-
   &--gutters {
     margin-right: -6.5rem;
   }
@@ -34,20 +30,12 @@
     padding-right: 4.5rem;
   }
 
-
-  &__b-margin-until-medium {
-    margin-bottom: 1.6rem;
-  }
-
   @mixin atMedium {
-
-    &__b-margin-until-medium {
-      margin-bottom: 0;
-    }
-
     &__medium-4 {
       float: left;
       width: 33.33%;
+
+      
     }
 
     &__medium-4--larger {
@@ -71,11 +59,6 @@
 
 
   @mixin atLarge {
-
-    &__b-margin-until-large {
-      margin-bottom: 0;
-    }
-
     &__large-4 {
       float: left;
       width: 33.33%;

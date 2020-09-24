@@ -45,11 +45,10 @@
           <li><a href="#about" id="about-link">A propos</a></li>
           <li><a href="#services" id="services-link">Services</a></li>
           <li><a href="#testimonials" id="testimonials-link">Témoignages</a></li>
-          <li><a href="#contact" id="contact-link">Contact</a></li>
         </ul>
       </nav>
       <div class="site-header__btn-container">
-        <a href="#" class="btn open-modal">Commences Dès Aujourd'hui!</a>
+        <a href="#" class="btn btn--thin btn--blue open-modal">Contact</a>
       </div>
       <div class="social-icons">
         <a href="https://fr-fr.facebook.com/" target="_blank" class="social-icons__link">
@@ -82,162 +81,104 @@
 
   <!-- large-hero section -->
   <section id="home" class="large-hero" data-matching-link="#home-link">
-    <!--  hero images  -->
-    <picture>
-      <source srcset="
-            assets/img/hero-large.jpg        1913w,
-            assets/img/hero-large-hi-dpi.jpg 3826w
-          " media="(min-width: 1366px)" />
-      <source srcset="
-            assets/img/hero-medium.jpg        1366w,
-            assets/img/hero-medium-hi-dpi.jpg 2731w
-          " media="(min-width: 955px)" />
-      <source srcset="
-            assets/img/hero-small.jpg         955w,
-            assets/img/hero-small-hi-dpi.jpg 1910w
-          " media="(min-width: 607px)" />
-      <img srcset="
-            assets/img/hero-smaller.jpg         607w,
-            assets/img/hero-smaller-hi-dpi.jpg 1214w
-          " alt="Girl in the gym doing sport" class="large-hero__image" />
-    </picture>
 
     <!--  hero txt content  -->
     <div class="large-hero__text-content">
       <div class="wrapper">
-        <h1 class="large-hero__title">Coaching Personnel</h1>
+        <h1 class="large-hero__title">D.B.S.H Coaching Personnel</h1>
         <h2 class="large-hero__subtitle">Forme, Force, Prépa physique & Fitness</h2>
         <p class="large-hero__description">
           Une méthode sur-mesure...
         </p>
-        <p>
-          <a href="#" class="btn btn--orange btn--large open-modal">
-            Commences Dès Aujourd'hui!
-          </a>
-        </p>
+        <a href="#" class="large-hero__btn btn btn--white btn--large open-modal">
+          Commences Dès Aujourd'hui!
+        </a>
       </div>
     </div>
   </section>
   <!--  / large-hero Section  -->
 
   <!-- About section -->
-  <section id="about" class="page-section" data-matching-link="#about-link">
+  <section id="about" class="u-page-section" data-matching-link="#about-link">
     <div class="wrapper">
-      <!-- headline -->
-      <h2 class="headline headline--centered headline--light headline--b-margin-small">
-        " Le sport répond à un besoin essentiel ... "</strong>
-      </h2>
-      <h3
-        class="headline headline--centered headline--orange headline--small headline--narrow headline--light headline--b-margin-large">
-        "Il participe à
-        <strong>la réalisation</strong>
-        de vos objectifs, de votre bien-être et de votre santé !"
-      </h3>
+      <!--   section title   -->
+      <h3 class="heading-secondary u-margin-bottom-small">Le sport répond à un besoin essentiel...</h3>
+      <h4 class="heading-tertiary u-margin-bottom">Participez à
+        <strong>la réalisation de vos objectifs, de votre bien-être et de votre santé</strong> !
+      </h4>
       <!--  images -->
-      <div class="wrapper wrapper--medium wrapper--b-margin reveal-img1">
-        <img class="lazyload" sizes="(min-width: 970px) 976px, 100vw" data-srcset="assets/img/about-low-res.jpg 565w, 
-        assets/img/about-large.jpg 968w, 
-        assets/img/about-large-hi-dpi.jpg 1935w" alt="Photo of a gym." />
+      <div class="wrapper wrapper--medium u-margin-bottom reveal-img1">
+        <img class="lazyload" 
+             sizes="(min-width: 970px) 976px, 100vw" 
+             data-srcset="assets/img/about-low-res.jpg 565w, 
+                          assets/img/about-large.jpg 968w, 
+                          assets/img/about-large-hi-dpi.jpg 1935w" 
+             alt="Photo of a gym." />
       </div>
 
-      <!--  Rows  -->
+      <!-- Main Rows  -->
       <div class="row row--gutters">
         <!--  1st Row  -->
-        <div class="row__medium-4 row__medium-4--larger row__b-margin-until-medium reveal-img2">
+        <div class="row__medium-4 row__medium-4--larger  u-margin-bottom reveal-img2">
           <picture>
             <source sizes="405px"
-              data-srcset="assets/img/portrait-large.jpg 405w, assets/img/portrait-large-hi-dpi.jpg 810w"
-              media="(min-width: 1080px)" />
-            <source sizes="372px" data-srcset="assets/img/portrait.jpg 372w, assets/img/portrait-hi-dpi.jpg 744w"
-              media="(min-width: 990px)" />
-            <img class="lazyload" data-srcset="assets/img/landscape.jpg 836w, assets/img/landscape-hi-dpi.jpg 1576w"
-              alt="Another woman practicing fitness" />
+                    data-srcset="assets/img/portrait-large.jpg 405w, 
+                                 assets/img/portrait-large-hi-dpi.jpg 810w"
+                    media="(min-width: 1080px)" />
+            <source sizes="372px" 
+                    data-srcset="assets/img/portrait.jpg 372w, 
+                                 assets/img/portrait-hi-dpi.jpg 744w"
+                    media="(min-width: 990px)" />
+            <img    class="lazyload" 
+                    data-srcset="assets/img/landscape.jpg 836w, 
+                                 assets/img/landscape-hi-dpi.jpg 1576w"
+                    alt="Another woman practicing fitness" />
           </picture>
         </div>
 
         <!--  2sd Row  -->
         <div class="row__medium-8 row__medium-8--smaller">
-          <div class="generic-content-container">
-            <h2 class="headline headline--no-t-margin">
-              "Prenez soin de votre corps, c'est votre lieu de Vie ...""
-            </h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              <a href="#services">coaching personnel</a>
-              ullamco laboris nisi ut aliquip ex ea commodo consequat. dolor
-              in reprehenderit in voluptate velit esse cillum nulla pariatur.
-              Excepteur sint occaecat cupidatat non proident.
-            </p>
-            <p>
-              Duis aute irure dolor in
-              <strong>forme, force et fitness</strong>
-              voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-              Excepteur sint occaecat cupidatat non proident, sunt in culpa
-              qui officia deserunt mollit anim id est laborum. Lorem ipsum
-              dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua.
-            </p>
-            <p>
-              Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu cupidatat non proident, sunt in culpa qui
-              officia deserunt mollit anim id est laborum velit esse cillum
-              <strong>ré-éducation sportive</strong>.
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              <a href="#services">préparation physique</a>
-              ullamco laboris nisi ut aliquip ex ea commodo consequat. dolor
-              in reprehenderit in voluptate velit esse cillum nulla pariatur.
-            </p>
+          <div>
+            <h3 class="heading-secondary u-margin-bottom-small"> "Prenez soin de votre corps, c'est votre lieu de Vie..."</h3>
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. <strong><a href="#services">coaching personnel</a></strong> ullamco laboris nisi ut aliquip ex ea commodo consequat. dolor in reprehenderit in voluptate velit esse cillum nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+            <p>Duis aute irure dolor in<strong> forme, force et fitness</strong>voluptate velit esse cillum dolore eu fugiat nulla pariatur.Excepteur sint occaecat cupidatat non proident, sunt in culpaqui officia deserunt mollit anim id est laborum. Lorem ipsumdolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua.</p>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu cupidatat non proident, sunt <strong><a href="#services">préparation physique</a></strong> deserunt mollit anim id est laborum velit esse cillum <strong>ré-éducation sportive</strong>. </p>
           </div>
         </div>
+
       </div>
-      <!--  / Rows  -->
+      <!--  / Main Row  -->
     </div>
   </section>
   <!--   / About section   -->
 
   <!--  Services section  -->
-  <section id="services" class="page-section page-section--orangeGradient" data-matching-link="#services-link">
+  <section id="services" class="u-page-section u-light-gradient" data-matching-link="#services-link">
     <div class="wrapper">
-      <!--  services main title -->
-      <h2 class="section-title">
-        <svg id="Layer_1" class="section-title__icon" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="64"
-          height="64" viewBox="0 0 64 64">
-          <defs>
-            <style>
-              .cls-1 {
-                fill: #F9930E;
-              }
-            </style>
-          </defs>
-          <title>star</title>
-          <path class="cls-1" d="M32,0L24,24H0L20,40,12,64,32,48,52,64,44,40,64,24H40Z" />
+      <!--  section title -->
+      <h2 class="heading-primary">
+        <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="64"
+          height="64" viewBox="0 0 64 64"><defs><style>.cls-1 {  fill: #F9930E;}</style></defs><title>star</title><path class="cls-1" d="M32,0L24,24H0L20,40,12,64,32,48,52,64,44,40,64,24H40Z" />
         </svg>
         Nos
-        <strong>Services</strong>
+        <span>Services</span>
       </h2>
-      <!-- headline -->
-      <h2 class="headline headline--centered headline--light headline--b-margin-small">
-        " Le sport répond à un besoin essentiel ... "</strong>
-      </h2>
-      <h3
-        class="headline headline--centered headline--orange headline--small headline--narrow headline--light headline--b-margin-large">
-        "Il participe à
-        <strong>la réalisation</strong>
-        de vos objectifs, de votre bien-être et de votre santé !"
+      <h3 class="heading-secondary">
+        Le Coach prend en compte un ensemble de méthodes, d'informations.
       </h3>
+      <h4
+        class="heading-tertiary u-margin-bottom">
+        Il pose différents axes de réflexion, et reste focus pour vous orienter vers un coaching <strong>adapter à vos besoins, vos capacités et vos objectifs.</strong>
+      </h4>
 
       <!--  row section large-->
-      <section class="row row--gutters-large generic-content-container">
+      <section class="row row--gutters-large">
         <!-- row sub-section med-6  -->
         <section class="row__medium-6">
           <!--service item training heart-->
           <article class="service-item">
-            <svg class="service-item__icon" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="heartbeat"
-              class="svg-inline--fa fa-heartbeat fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
+            <svg class="service-item__icon svg-inline--fa fa-heartbeat fa-w-16" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="heartbeat"
+               role="img" xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 512 512">
               <path fill="#FFDFB5"
                 d="M320.2 243.8l-49.7 99.4c-6 12.1-23.4 11.7-28.9-.6l-56.9-126.3-30 71.7H60.6l182.5 186.5c7.1 7.3 18.6 7.3 25.7 0L451.4 288H342.3l-22.1-44.2zM473.7 73.9l-2.4-2.5c-51.5-52.6-135.8-52.6-187.4 0L256 100l-27.9-28.5c-51.5-52.7-135.9-52.7-187.4 0l-2.4 2.4C-10.4 123.7-12.5 203 31 256h102.4l35.9-86.2c5.4-12.9 23.6-13.2 29.4-.4l58.2 129.3 49-97.9c5.9-11.8 22.7-11.8 28.6 0l27.6 55.2H481c43.5-53 41.4-132.3-7.3-182.1z">
@@ -258,8 +199,8 @@
 
           <!-- service item top goals -->
           <article class="service-item">
-            <svg class="service-item__icon" aria-hidden="true" focusable="false" data-prefix="fas"
-              data-icon="sort-amount-up-alt" class="svg-inline--fa fa-sort-amount-up-alt fa-w-16" role="img"
+            <svg class="service-item__icon svg-inline--fa fa-sort-amount-up-alt fa-w-16" aria-hidden="true" focusable="false" data-prefix="fas"
+              data-icon="sort-amount-up-alt" role="img"
               xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
               <path fill="#FFDFB5"
                 d="M240 96h64a16 16 0 0 0 16-16V48a16 16 0 0 0-16-16h-64a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16zm0 128h128a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16H240a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16zm256 192H240a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h256a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16zm-256-64h192a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16H240a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16zM16 160h48v304a16 16 0 0 0 16 16h32a16 16 0 0 0 16-16V160h48c14.21 0 21.39-17.24 11.31-27.31l-80-96a16 16 0 0 0-22.62 0l-80 96C-5.35 142.74 1.78 160 16 160z">
@@ -284,8 +225,8 @@
         <section class="row__medium-6">
           <!-- service item workout -->
           <article class="service-item">
-            <svg class="service-item__icon" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="dumbbell"
-              class="svg-inline--fa fa-dumbbell fa-w-20" role="img" xmlns="http://www.w3.org/2000/svg"
+            <svg class="service-item__icon svg-inline--fa fa-dumbbell fa-w-20" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="dumbbell"
+              role="img" xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 640 512">
               <path fill="#FFDFB5"
                 d="M104 96H56c-13.3 0-24 10.7-24 24v104H8c-4.4 0-8 3.6-8 8v48c0 4.4 3.6 8 8 8h24v104c0 13.3 10.7 24 24 24h48c13.3 0 24-10.7 24-24V120c0-13.3-10.7-24-24-24zm528 128h-24V120c0-13.3-10.7-24-24-24h-48c-13.3 0-24 10.7-24 24v272c0 13.3 10.7 24 24 24h48c13.3 0 24-10.7 24-24V288h24c4.4 0 8-3.6 8-8v-48c0-4.4-3.6-8-8-8zM456 32h-48c-13.3 0-24 10.7-24 24v168H256V56c0-13.3-10.7-24-24-24h-48c-13.3 0-24 10.7-24 24v400c0 13.3 10.7 24 24 24h48c13.3 0 24-10.7 24-24V288h128v168c0 13.3 10.7 24 24 24h48c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24z">
@@ -305,9 +246,9 @@
 
           <!-- service item food & health -->
           <article class="service-item">
-            <svg class="service-item__icon" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="weight"
-              class="svg-inline--fa fa-weight fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 512 512">
+            <svg class="service-item__icon svg-inline--fa fa-weight fa-w-16" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="weight"
+               role="img" xmlns="http://www.w3.org/2000/svg"
+               viewBox="0 0 512 512">
               <path fill="#FFDFB5"
                 d="M448 64h-25.98C438.44 92.28 448 125.01 448 160c0 105.87-86.13 192-192 192S64 265.87 64 160c0-34.99 9.56-67.72 25.98-96H64C28.71 64 0 92.71 0 128v320c0 35.29 28.71 64 64 64h384c35.29 0 64-28.71 64-64V128c0-35.29-28.71-64-64-64zM256 320c88.37 0 160-71.63 160-160S344.37 0 256 0 96 71.63 96 160s71.63 160 160 160zm-.3-151.94l33.58-78.36c3.5-8.17 12.94-11.92 21.03-8.41 8.12 3.48 11.88 12.89 8.41 21l-33.67 78.55C291.73 188 296 197.45 296 208c0 22.09-17.91 40-40 40s-40-17.91-40-40c0-21.98 17.76-39.77 39.7-39.94z">
               </path>
@@ -330,24 +271,24 @@
   <!--   / Services section  -->
 
   <!--  Testimonials section  -->
-  <section id="testimonials" class="page-section page-section--testimonials" data-matching-link="#testimonials-link">
+  <section id="testimonials" class="testimonial u-page-section" data-matching-link="#testimonials-link">
     <div class="wrapper wrapper--no-padding-until-large">
-      <h2 class="section-title section-title--blue">
-        <img class="section-title__icon" src="assets/img/icons/comment.svg" />
-        <strong>Témoignages</strong>
+      <!--  section  title -->
+      <h2 class="heading-primary heading-primary--no-mb">
+        <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64"><defs><style>.cls-1{fill:#F9930E;}</style></defs><title>comment</title><path class="cls-1" d="M0.72,0.08A0.67,0.67,0,0,0,0,.8V47.28A0.72,0.72,0,0,0,.72,48H48L64,64V0.72A0.67,0.67,0,0,0,63.28,0H0.8Z"/></svg>
+        <span>Témoignages</span>
       </h2>
 
-      <div
-        class="row row--gutters row--equal-height-at-large row--gutters-small row--t-padding generic-content-container">
+      <div class="row row--gutters row--equal-height-at-large row--gutters-small u-margin-top">
         <div class="row__large-4">
-          <div class="testimonial">
-            <div class="testimonial__photo">
+          <div class="card">
+            <div class="card__photo">
               <img class="lazyload" sizes="160px"
                 data-srcset="assets/img/Testimonial-1.jpg 160w, assets/img/Testimonial-1-hi-dpi.jpg 320w"
                 alt="Jane Doe" />
             </div>
-            <h3 class="testimonial__title">Jane Doe</h3>
-            <h4 class="testimonial__subtitle">Fitness & Nutrition</h4>
+            <h5 class="card__title">Jane Doe</h5>
+            <h6 class="card__subtitle">Fitness & Nutrition</h6>
             <p>
               &ldquo;Duis aute irure dolor in reprehenderit in voluptate velit
               esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
@@ -360,16 +301,16 @@
         </div>
 
         <div class="row__large-4">
-          <div class="testimonial">
-            <div class="testimonial__photo">
+          <div class="card">
+            <div class="card__photo">
               <img class="lazyload" sizes="160px"
                 data-srcset="assets/img/Testimonial-2.jpg 160w, assets/img/Testimonial-2-hi-dpi.jpg 320w"
                 alt="John Smith" />
             </div>
-            <h3 class="testimonial__title">John Smith</h3>
-            <h4 class="testimonial__subtitle">
+            <h5 class="card__title">John Smith</h5>
+            <h6 class="card__subtitle">
               Préparation Physique "Intensive"
-            </h4>
+            </h6>
             <p>
               &ldquo;Duis aute irure dolor in reprehenderit in voluptate velit
               esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
@@ -381,14 +322,14 @@
         </div>
 
         <div class="row__large-4">
-          <div class="testimonial testimonial--last">
-            <div class="testimonial__photo">
+          <div class="card">
+            <div class="card__photo">
               <img class="lazyload" sizes="160px"
                 data-srcset="assets/img/Testimonial-3.jpg 160w, assets/img/Testimonial-3-hi-dpi.jpg 320w"
                 alt="Miss Brown" />
             </div>
-            <h3 class="testimonial__title">Miss Brown</h3>
-            <h4 class="testimonial__subtitle">Coaching "Remise en Forme"</h4>
+            <h5 class="card__title">Miss Brown</h5>
+            <h6 class="card__subtitle">Coaching "Remise en Forme"</h6>
             <p>
               &ldquo;Duis aute irure dolor in reprehenderit in voluptate velit
               esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
@@ -405,15 +346,16 @@
   <!--   /  Testimonials section  -->
 
   <!--  Contact section  -->
-  <section id="contact" class="page-section page-section--orangeGradient" data-matching-link="#contact-link">
-    <div class="wrapper generic-content-container">
-      <h2 class="section-title">
-        <svg id="Layer_1" class="section-title__icon" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="64"
+  <section id="contact" class="u-page-section u-light-gradient" data-matching-link="#contact-link">
+    <div class="wrapper">
+      <!--  section  title  -->
+      <h2 class="heading-primary heading-primary--mb">
+        <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="64"
           height="48" viewBox="0 0 64 48"><defs><style>.cls-1 {  fill: #F9930E;}</style></defs>
           <title>mail</title>
           <path class="cls-1" d="M0,0V8L32,24,64,8V0H0ZM0,16V48H64V16L32,32Z" />
         </svg>
-        <strong>Contact</strong>
+        <span>Contact</span>
       </h2>
 
       <p>
@@ -442,7 +384,7 @@
           <input type="email" name="email" id="email" class="form-control" placeholder="Ecrivez votre email" required>
         </div>
 
-        <button type="submit" id="submit" class="btn-submit">
+        <button type="submit" id="submit" class="form-btn btn btn--large btn--orange">
           C'est Parti !
         </button>
 

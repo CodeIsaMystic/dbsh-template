@@ -11,6 +11,7 @@
     padding-right: 1.8rem;
   }
 
+  /* =Modfier for the 976px image width  */
   &--medium {
     max-width: 97.6rem;
   }
@@ -39,13 +40,4 @@
     padding-left: 0;
     padding-right: 0;
   }
-
-  &--b-margin {
-    margin-bottom: 2.5rem;
-
-    @mixin atSmall {
-      margin-bottom: 6.5rem;
-    }
-  }
-
 }

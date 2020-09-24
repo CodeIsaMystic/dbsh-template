@@ -61,16 +61,10 @@ form {
     box-shadow: 0 0 0 .2rem rgba(246, 246, 255, 0.25);
   }
   
-  .btn-submit {
+  .form-btn {
     display: block;
-    width: 60%;
+    width: 50%;
     margin: 0 auto;
-    padding: 1.2rem;
-    font-weight: 700;
-    letter-spacing: 1.5px;
-    background: $mainOrange;
-    text-transform: uppercase;
-    color: $mainTextColor;
     cursor: pointer;    
     border: none;
     transition: all 0.7s ease-in-out;
@@ -80,12 +74,8 @@ form {
       transform: scale(1.03);
     }
 
-    @mixin atXSmall {
-      padding: 1.2rem 1.9rem;
-    }
-
     @mixin atMedium {
-      width: 40%;
+      width: 30%;
     }
   }
 }

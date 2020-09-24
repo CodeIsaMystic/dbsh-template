@@ -1,0 +1,50 @@
+*::selection {
+  background-color: $mainSemiDarkBlue;
+  color: $mainTextColor;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    
+    font-size: 1.6rem;
+    line-height: 1.3;
+    color: $mainSemiDarkBlue;
+
+    strong {
+      font-weight: 500;
+    }
+
+    @mixin atSmall {
+      font-size: 1.8rem;
+    }
+}
+
+p {
+  width: 100%;
+  margin: 0 auto 1.6rem;  
+  text-align: center;
+
+  @mixin atSmall {
+      width: 80%;
+  }
+
+  @mixin atMedium {
+      width: 70%;
+  }
+
+  @mixin atLarge {
+    max-width: 90rem
+  }
+}
+
+
+p  strong > a,
+p > strong {
+  font-weight: 500;
+  color: $mainSemiDarkOrange;
+  transition: color .4s; 
+}
+p > strong:hover a {
+    color: $mainOrange;
+}

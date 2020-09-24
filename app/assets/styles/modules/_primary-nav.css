@@ -5,60 +5,56 @@
     padding-top: 0;
   }
 
-  ul {
-    margin: 0;
-    padding: 0;
-  }
-
   li {
     display: inline-block;
     margin-top: .5rem;
-    padding-right: 1rem;
-    list-style: none;
+    padding-right: 0;
     
-
     @mixin atMedium {
       display: block;
       float: left;
       margin-top: 0;
-      padding-right: 0;
     }
-    
-    @mixin atLarge {
-      padding-right: 4rem;
+
+    &:not(:last-child) {
+      
+      @mixin atMedium {
+        padding-right: 1.6rem;
+      }
+      
+      @mixin atLarge {
+        padding-right: 2.2rem;
+      }
     }
-  }
 
-  li:last-child {
-    padding-right: 0;
-
-    @mixin atMedium {
-      padding-right: 2rem;
+    &:last-child {
+      @mixin atMedium {
+        padding-right: 2rem;
+      }
+      @mixin atLarge {
+        padding-right: 2.8rem;
+      }
     }
   }
 
   a {
     display: block;
     padding: .5rem .8rem;
-    text-decoration: none;
     font-size: 1.3rem;
     font-weight: 300;
     letter-spacing: 1px;
-    background-color: rgba($mainDarkBlue, .85);
     color: $mainTextColor;
-    opacity: .85;
+    opacity: 1;
     transition: all .4s;
 
     @mixin atMedium {
       display: inline-block;
-      width: 9rem;
       padding: 0;
       margin: auto;
       font-size: 1.6rem;
-      background-color: transparent;
 
       &:hover {
-        opacity: 1;
+        opacity: .8;
       }
 
       &.is-current-link {
@@ -66,7 +62,6 @@
         color: $mainOrange;
       }
     }
-
 
     @mixin atLarge {
       display: block;

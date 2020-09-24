@@ -1,17 +1,26 @@
 .testimonial {
+  background: url('assets/img/testimonials-bg.jpg') top center no-repeat;
+  background-size: cover;
+}
+
+
+
+.card {
   width: 80%;
   background-color: rgba(255, 255, 255, .8);
   padding: 0 1.8rem 1rem 1.8rem;
-  margin: 0 auto 9.8rem;
-
+  
   @mixin atLarge {
     width: 100%;
-    margin-bottom: 0;
     padding: 0 2.9rem 1rem 2.9rem;
   }
+  
+  &:not(last-child) {
+    margin: 0 auto 9.8rem;
 
-  &--last {
-    margin-bottom: 0;
+    @mixin atLarge {
+      margin-bottom: 0;
+    }
   }
 
   &__photo {
@@ -40,4 +49,7 @@
     font-size: 1.5rem;
     margin: .4rem 0 1.6rem 0;
   }
+
 }
+  
+  

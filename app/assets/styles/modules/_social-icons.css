@@ -1,9 +1,11 @@
 .social-icons {
   margin-top: 1rem;
+  margin-right: 0;
   text-align: center;
   
   @mixin atMedium {
     margin-top: .5rem;
+    margin-right: 2rem;
   }
 
   &__link {
@@ -11,7 +13,6 @@
     position: relative;
     width: 4rem;
     height: 4rem;
-    margin: auto .5rem; 
     
     & svg {
       display: block;

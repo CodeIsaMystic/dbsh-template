@@ -1,0 +1,89 @@
+/*   =Heading primary   */
+.heading-primary {
+  margin-bottom: 1.5rem;
+  font-size: 4.5rem;
+  font-weight: 300;
+  text-align: center;
+  color: $mainDarkBlue;
+
+  span, strong {
+    font-weight: 500;
+  }
+  
+  @mixin atXSmall {
+    font-size: 5rem;
+  }
+  @mixin atSmall {
+    font-size: 6rem;
+  }
+
+  &--mb {
+    margin: 0 auto 1.5rem;
+
+    @mixin atMedium {
+      margin: 0 auto 2.5rem;
+    }
+  }
+
+  & svg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: .9rem;
+
+    @mixin atSmall {
+      display: inline-block;
+      position: relative;
+      top: .8rem;
+      margin-right: .8rem;
+      margin-left: 0;
+      margin-bottom: 0;
+    }
+  }
+}
+
+
+/*   =Heading  Secondary   */
+.heading-secondary {
+  font-size: 2.6rem;
+  font-weight: 300;
+  letter-spacing: -2px;
+  word-spacing: 1px;
+  text-align: center;
+  color: $mainDarkBlue;
+
+  @mixin atXSmall {
+    font-size: 3rem;
+  }
+
+  @mixin atSmall {
+    font-size: 3.4rem;
+  }
+}
+
+
+/*   =Heading  Tertiary   */
+.heading-tertiary {
+  width: 75%;
+  font-size: 1.8rem;
+  font-weight: 300;  
+  text-align: center;
+  letter-spacing: 1px;
+  color: $mainOrange;
+
+  @mixin atXSmall {
+    font-size: 2rem;
+  }
+
+  @mixin atSmall {
+    font-size: 2.5rem;
+  }
+
+  @mixin atMedium {
+    width: 100%;
+  }
+
+  span, strong {
+    font-weight: 500;
+  }
+}

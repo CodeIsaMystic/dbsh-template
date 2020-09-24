@@ -1,22 +1,16 @@
 .btn {
   display: inline-block;
-  padding: .8rem 1.3rem;
-  text-decoration: none;
   color: $mainTextColor;
-  background-color: $mainDarkBlue;
+  border-radius: 2px;
   transition: all 0.7s ease-in-out;
 
-  @mixin atXSmall {
-    padding: 1.2rem 1.9rem;
-  }
+  &--thin {
+    padding: .8rem 1.3rem;
+    font-size: 1.1rem;
 
-  &:hover {
-    transform: scale(1.03);
-  }
-
-
-  &--orange {
-    background-color: $mainOrange;
+    @mixin atSmall {
+      font-size: 1.5rem;
+    }
   }
 
   &--large {
@@ -33,4 +27,21 @@
     }
   }
 
+  &:hover {
+    transform: scale(1.02);
+  }
+
+  &--blue {
+    background-color: $mainDarkBlue;
+  }
+
+  &--white {
+    background-color: $mainTextColor;
+    color: $mainDarkBlue;
+
+  }
+
+  &--orange {
+    background-color: $mainOrange;
+  }
 } 
