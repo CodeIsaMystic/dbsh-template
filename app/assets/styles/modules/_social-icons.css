@@ -1,23 +1,23 @@
 .social-icons {
-  margin-top: 10px;
+  margin-top: 1rem;
   text-align: center;
   
   @mixin atMedium {
-    margin-top: 5px;
+    margin-top: .5rem;
   }
 
-  &__icon {
+  &__link {
     display: inline-block;
     position: relative;
-    width: 32px;
-    height: 32px;
-    margin: auto 5px; 
+    width: 4rem;
+    height: 4rem;
+    margin: auto .5rem; 
     
     & svg {
       display: block;
       position: absolute;
-      width: 15px;
-      height: 15px;
+      width: 2rem;
+      height: 2rem;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
@@ -26,7 +26,11 @@
 
       &:hover {
         fill: $mainOrange;
-
+      }
+    }
+    &--dark {
+      & svg {
+        fill: $mainDarkBlue;
       }
     }
   }

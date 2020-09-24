@@ -1,13 +1,13 @@
 .section-title {
-  font-size: 2.3rem;
+  font-size: 3.7rem;
   font-weight: 300;
   text-align: center;
 
   @mixin atXSmall {
-    font-size: 2.55rem;
+    font-size: 4rem;
   }
   @mixin atSmall {
-    font-size: 3.75rem;
+    font-size: 6rem;
   }
 
   strong {
@@ -19,7 +19,7 @@
   }
 
   &--less-margin {
-    margin-bottom: 1.3rem;
+    margin-bottom: 2rem;
     margin-top: 0;
   }
 
@@ -27,12 +27,12 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: .6rem;
+    margin-bottom: .9rem;
 
     @mixin atSmall {
       position: relative;
-      top: 8px;
-      margin-right: .5rem;
+      top: .8rem;
+      margin-right: .8rem;
       margin-left: 0;
       margin-bottom: 0;
       display: inline-block;

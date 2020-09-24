@@ -1,5 +1,5 @@
 .primary-nav {
-  padding-top: 10px;
+  padding-top: 1rem;
 
   @mixin atMedium {
     padding-top: 0;
@@ -12,8 +12,8 @@
 
   li {
     display: inline-block;
-    margin-top: 5px;
-    padding-right: 10px;
+    margin-top: .5rem;
+    padding-right: 1rem;
     list-style: none;
     
 
@@ -25,7 +25,7 @@
     }
     
     @mixin atLarge {
-      padding-right: 40px;
+      padding-right: 4rem;
     }
   }
 
@@ -33,15 +33,15 @@
     padding-right: 0;
 
     @mixin atMedium {
-      padding-right: 20px;
+      padding-right: 2rem;
     }
   }
 
   a {
     display: block;
-    padding: 5px 8px;
+    padding: .5rem .8rem;
     text-decoration: none;
-    font-size: .8rem;
+    font-size: 1.3rem;
     font-weight: 300;
     letter-spacing: 1px;
     background-color: rgba($mainDarkBlue, .85);
@@ -51,10 +51,10 @@
 
     @mixin atMedium {
       display: inline-block;
-      width: 90px;
+      width: 9rem;
       padding: 0;
       margin: auto;
-      font-size: 1rem;
+      font-size: 1.6rem;
       background-color: transparent;
 
       &:hover {

@@ -1,5 +1,5 @@
 .large-hero {
-  border-bottom: 10px solid $mainLightGray;
+  border-bottom: 1rem solid $mainLightGray;
   position: relative;
 
   &__image {
@@ -13,25 +13,25 @@
     left: 0;
     width: 100%;
     text-align: center;
-    padding-top: 88px;
+    padding-top: 8.8rem;
   }
 
   &__title {
     font-weight: 900;
     color: $mainTextColor;
     margin: 0;
-    font-size: 1.8rem;
+    font-size: 2.9rem;
 
     @mixin atXSmall {
-      font-size: 2.4rem;
+      font-size: 3.8rem;
     }
 
     @mixin atMedium {
-      font-size: 2.9rem;
+      font-size: 4.6rem;
     }
 
     @mixin atLarge {
-      font-size: 4rem;
+      font-size: 6.4rem;
     }
 
   }
@@ -40,23 +40,23 @@
     font-weight: 300;
     color: $mainOrange;
     text-shadow: 2px 2px 0 rgba(0, 0, 0, .3);
-    font-size: 1.2rem;
+    font-size: 1.9rem;
     margin: 0;      
-    padding-top: .5rem;
+    padding-top: .8rem;
 
     
     @mixin atXSmall {
-      font-size: 2rem;    
-      padding-top: 1rem;
+      font-size: 3.2rem;    
+      padding-top: 1.6rem;
     }
     
     @mixin atMedium {
-      font-size: 2.4rem;
-      padding-top: 1.2rem;
+      font-size: 3.8rem;
+      padding-top: 1.9rem;
     }
 
     @mixin atLarge {
-      font-size: 2.9rem;
+      font-size: 4.6rem;
     }
 
   }
@@ -65,24 +65,24 @@
     color: $mainTextColor;
     text-shadow: 2px 2px 0 rgba(0, 0, 0, .3);
     font-weight: 300;
-    font-size: 1.2rem;
+    font-size: 1.9rem;
     text-shadow: 2px 2px 0 rgba(0, 0, 0, .1);
-    max-width: 30rem;
+    max-width: 48rem;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 5px;
+    padding-bottom: .5rem;
 
     @mixin atXSmall {
-      padding-bottom: 18px;
+      padding-bottom: 1.8rem;
     }
 
     @mixin atSmall {
-      font-size: 1.4rem;
-      padding-bottom: 35px;
+      font-size: 2.2rem;
+      padding-bottom: 3.5rem;
     }
 
     @mixin atMedium {
-      font-size: 1.875rem;
+      font-size: 3rem;
     }
   }
 

@@ -1,21 +1,25 @@
+/*  =Reset  & Basics settings */
+
+
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
 html {
+  /*  This set the font size of the site for 1rem  */
+  font-size: 62.5%;
   scroll-behavior: smooth;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Montserrat', 'open-sans', sans-serif;
-  font-size: 62.5%;
+body {  
+  box-sizing: border-box;  
+  font-family: 'Montserrat', sans-serif;
 }
 
 img {
   height: auto;
   max-width: 100%;
-}
-
-* {
-  box-sizing: border-box;
 }
 
 a {

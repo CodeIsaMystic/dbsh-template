@@ -3,40 +3,40 @@
   @mixin clearfix;
 
   &--t-padding {
-    padding-top: 80px;
+    padding-top: 8rem;
   }
 
   &--gutters {
-    margin-right: -65px;
+    margin-right: -6.5rem;
   }
 
   &--gutters-large {
-    margin-right: -100px;
+    margin-right: -10rem;
   }
 
   &--gutters-small {
-    margin-right: -45px;
+    margin-right: -4.5rem;
   }
 
   &--gutters>article,
   &--gutters>div,
   &--gutters>section {
-    padding-right: 65px;
+    padding-right: 6.5rem;
   }
 
   &--gutters-large>section,
   &--gutters-large>article,
   &--gutters-large>div {
-    padding-right: 100px;
+    padding-right: 10rem;
   }
 
   &--gutters-small>div {
-    padding-right: 45px;
+    padding-right: 4.5rem;
   }
 
 
   &__b-margin-until-medium {
-    margin-bottom: 1rem;
+    margin-bottom: 1.6rem;
   }
 
   @mixin atMedium {

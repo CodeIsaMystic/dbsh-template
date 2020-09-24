@@ -1,18 +1,18 @@
 .wrapper {
   overflow: hidden;
-  max-width: 1236px;
+  max-width: 123.6rem;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 1rem;
+  padding-right: 1rem;
   
   @mixin atXSmall {
-    padding-left: 18px;
-    padding-right: 18px;
+    padding-left: 1.8rem;
+    padding-right: 1.8rem;
   }
 
   &--medium {
-    max-width: 976px;
+    max-width: 97.6rem;
   }
 
   &--no-padding-until-medium {
@@ -20,8 +20,8 @@
     padding-right: 0;
 
     @mixin atMedium {
-      padding-left: 18px;
-      padding-right: 18px;
+      padding-left: 2.9rem;
+      padding-right: 2.9rem;
     }
   }
 
@@ -30,8 +30,8 @@
     padding-right: 0;
 
     @mixin atLarge {
-      padding-left: 18px;
-      padding-right: 18px;
+      padding-left: 2.9rem;
+      padding-right: 2.9rem;
     }
   }
 
@@ -41,10 +41,10 @@
   }
 
   &--b-margin {
-    margin-bottom: 1rem;
+    margin-bottom: 2.5rem;
 
     @mixin atSmall {
-      margin-bottom: 3.875rem;
+      margin-bottom: 6.5rem;
     }
   }
 

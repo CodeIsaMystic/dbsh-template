@@ -1,13 +1,13 @@
 .btn {
   display: inline-block;
-  padding: .5rem .8rem;
+  padding: .8rem 1.3rem;
   text-decoration: none;
   color: $mainTextColor;
   background-color: $mainDarkBlue;
   transition: all 0.7s ease-in-out;
 
   @mixin atXSmall {
-    padding: .75rem 1.2rem;
+    padding: 1.2rem 1.9rem;
   }
 
   &:hover {
@@ -20,16 +20,16 @@
   }
 
   &--large {
-    padding: .8rem 1rem;
-    font-size: .85rem;
+    padding: 1.3rem 1.6rem;
+    font-size: 1.3rem;
     
     @mixin atXSmall {
-      padding: 1.1rem 1.9rem;
-      font-size: 1.1rem;
+      padding: 1.7rem 3rem;
+      font-size: 1.7rem;
     }
 
     @mixin atSmall {
-      font-size: 1.25rem;
+      font-size: 2rem;
     }
   }
 

@@ -26,9 +26,9 @@
 
   &__close {
     position: absolute;
-    top: 15px;
-    right: 15px;
-    font-size: 2rem;
+    top: 1.5rem;
+    right: 1.5rem;
+    font-size: 3.2rem;
     transform: scaleX(1.2);
     transform-origin: 100% 0;
     cursor: pointer;
