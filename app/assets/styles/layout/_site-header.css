@@ -127,6 +127,7 @@
 
 
   &__menu-content {
+    display: none;
     position: relative;
     padding-top: 6rem;
     text-align: center;
@@ -144,9 +145,20 @@
       cursor: pointer;
 
       transform: scale(1);
+
+      @mixin flexEnd;
+    }
+
+    & div:last-child {
+      margin-right: 0;
+
+      @mixin atMedium {
+        margin-right: 2rem;
+      }
     }
 
     &--is-visible {
+      display: block;
       z-index: 1;
       opacity: 1;
 

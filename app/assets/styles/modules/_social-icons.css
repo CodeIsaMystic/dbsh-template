@@ -1,12 +1,6 @@
 .social-icons {
-  margin-top: 1rem;
-  margin-right: 0;
+  margin-top: .5rem;
   text-align: center;
-  
-  @mixin atMedium {
-    margin-top: .5rem;
-    margin-right: 2rem;
-  }
 
   &__link {
     display: inline-block;
@@ -31,7 +25,7 @@
     }
     &--dark {
       & svg {
-        fill: $mainDarkBlue;
+        fill: $mainSemiDarkOrange;
       }
     }
   }

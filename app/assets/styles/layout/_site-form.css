@@ -1,6 +1,202 @@
 
-form {
-    padding: 4rem 1rem;
+.contact__form {
+  width: 100%;
+
+  /*  test with wrapper  */
+  padding: 0 2rem;
+  margin: 0 auto;
+}
+
+.form {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+
+  &__group {
+    width: 100%;
+    margin: 0 auto 2rem;
+   /* margin-bottom: 2rem;*/
+
+    @mixin atSmall {
+      width: 65%;
+    }
+  }
+  
+  /*
+  &__group:not(:last-child) {
+    margin-bottom: 2rem;
+  }
+  &__group:last-child {
+    margin-top: 4rem;
+  }*/
+
+  &__input {
+    display: block;
+    width: 90%;
+    padding: 1.5rem 2rem;
+    font-size: 1.5rem;
+    font-family: inherit;
+    color: inherit;
+    border-radius: 2px;
+    background-color: rgba($mainTextColor, .5);
+    border: none;
+    border-bottom: 3px solid transparent;
+    transition: all .3s;
+
+    @mixin atSmall {
+      width: 100%;
+    }
+
+
+    &:focus {
+      outline: none;
+      box-shadow: 0 1rem 2rem rgba(0, 0, 0, .1);
+      border-bottom: 3px solid $mainSemiDarkOrange;
+    }
+
+    /*  =When focused & invalid text  */
+    &:focus:invalid {
+      border-bottom: 3px solid $mainOrange;
+    }
+
+    /*   =Become darker when typing (chrome & safari)  */
+    &::-webkit-input-placeholder {
+      color: $mainSemiDarkBlue;
+    }
+  }
+
+  &__label {
+    display: block;
+    margin-left: 2rem;
+    margin-top: .7rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    transition: all .3s;
+  }
+
+  /*  =Make the label disappear  */
+  &__input:placeholder-shown + &__label {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-4rem);
+  }
+
+
+
+
+
+  /*  =Build the checkbox btn  */
+  &__checkbox-group {
+    display: inline-block;
+    margin: 0 auto 2rem;
+    
+    &:not(:last-child) {
+      padding-right: 2rem;
+    }    /*width: 49%;*/
+    /*display: flex;*/
+
+    @mixin atSmall {
+      /*display: block;*/
+      /*margin-bottom: 2rem;*/
+    }
+  }
+
+  &__checkbox-input {
+    display: none;
+  }
+
+  &__checkbox-label {
+    position: relative;
+    padding-left: 3rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+
+  &__checkbox-button {
+    display: inline-block;
+    height: 1.2rem;
+    width: 1.2rem;
+    position: absolute;
+    left: 0;
+    top: 5px;
+    border: 2px solid $mainOrange;
+    /*border-radius: 50%;*/
+
+
+
+    &::after {
+      content: "";
+      display: block;
+      height: 1.2rem;
+      width: 1.2rem;
+      /*border-radius: 50%;*/
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: $mainOrange;
+      color: $mainOrange;
+      opacity: 0;
+      transition: all .2s;
+    }
+
+
+  }
+
+  &__checkbox-input::checked ~ &__checkbox-label &__checkbox-button::after {
+    opacity: 1;
+    /*background-color: $mainOrange;*/
+  }
+}
+
+
+
+
+
+
+
+/*
+}
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* padding: 4rem 1rem;
   
   & label {
     display: flex;
@@ -23,8 +219,7 @@ form {
     line-height: inherit;
   }
 
-  
-  
+
   .form-group {
     display: block;
     width: 100%;
@@ -32,12 +227,12 @@ form {
     padding: 0;
     
     @mixin atXSmall {
-      width: 80%;
+      width: 49%;
     }
 
     @mixin atSmall {
       display: inline-block;
-      width: 32%;    
+      width: 49%;    
       margin: 0 auto 2rem auto;    
       padding: .4rem;
     }
@@ -59,12 +254,90 @@ form {
     border-color: $mainSemiDarkOrange;
     outline: 0;
     box-shadow: 0 0 0 .2rem rgba(246, 246, 255, 0.25);
+  }*/
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*  =Checkbox  */
+
+  /*
+  & .checkbox-group {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    aligns-item: center;
+    
+    & .checkbox-label {
+      display: block;
+      font-size: 1rem;
+      font-weight: 700;
+    }
+
   }
+  
+  .checkbox-input {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+  }
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* =Form button */
+
   
   .form-btn {
     display: block;
-    width: 50%;
-    margin: 0 auto;
+    width: 30%;
+    margin: 3rem auto 0;
     cursor: pointer;    
     border: none;
     transition: all 0.7s ease-in-out;
@@ -73,9 +346,8 @@ form {
     &:hover {
       transform: scale(1.03);
     }
-
+/*
     @mixin atMedium {
       width: 30%;
-    }
+    }*/
   }
-}

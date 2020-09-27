@@ -7,7 +7,6 @@
 @import 'base/_global';
 @import 'base/_row';
 @import 'base/_wrapper';
-@import 'base/_flex';
 @import 'base/_animations';
 @import 'base/_utilities';
 @import 'base/_generic-text-content';
@@ -15,6 +14,7 @@
 
 @import 'layout/_site-header';
 @import 'layout/_large-hero';
+@import 'layout/_site-about';
 @import 'layout/_testimonials';
 @import 'layout/_site-form';
 @import 'layout/_site-footer';
@@ -23,7 +23,7 @@
 @import 'modules/_primary-nav';
 @import 'modules/_btn';
 @import "modules/_social-icons";
-@import 'modules/_section-title';
+@import 'modules/_headings';
 @import 'modules/_service-item';
 
 

@@ -1,14 +1,61 @@
+/*.services {
+/* =Set the section here ??? then the card ???
+  & .row {
+    padding: 4.5rem auto 0;
+
+    @mixin atMedium {
+      padding: 7rem auto 0;
+    }
+  }
+
+
+  & section {
+    & section:first-of-type article,
+    & section:last-child article:first-child {
+      margin-bottom: 3rem;
+
+      @mixin atMedium {
+        margin-bottom: 0;
+      }
+
+    }
+    & section:last-of-type article:not(last-child) {
+
+      @mixin atMedium {
+      padding-bottom: 4rem; 
+      }
+    } 
+  }
+ 
+}*/
+
 .service-item {
   position: relative;
   width: 75%;
+  height: 25.2rem;
   margin: 0 auto;
 
-  &:not(:last-child) {
-    padding-bottom: 4rem;
+  @mixin atMedium {
+    height: 26.6rem;
+  }
+
+  @mixin atLarge {
+    height: 20.7rem;
+  }
+
+ 
+  @mixin atMedium {
+    width: 100%; 
+   /* 
+    &:not(:last-child) {
+      padding-bottom: 0;
+    }*/
   }
 
   @mixin atLarge {
     padding-left: 9.4rem;
+
+    @mixin flexColumn;
   }
 
   &__icon {
@@ -20,33 +67,35 @@
     @mixin atLarge {
       position: absolute;
       left: 0;
+      top: 10px;
     }
   }
 
   &__title {
     font-size: 2.6rem;
     font-weight: 400;
-    margin-top: .7em;
-    margin-bottom: 1.3rem;
+    /*margin-top: .7rem;
+    margin-bottom: 1.3rem;*/
     text-align: center;
 
     @mixin atLarge {
       text-align: left;
-      margin-top: 1em;
       font-size: 3rem;
     }
   }
 
   &__sub-title {
-    margin-top: 0;
-    margin-bottom: .65rem;
+   /* margin-top: 0;*/
+    margin-bottom: 1.5rem;
     text-align: center;
 
     @mixin atLarge {
       text-align: left;
     }
   }
-  p {
+  p {    
+    width: 100%;
+    margin: 0;
     text-align: center;
 
     @mixin atLarge {

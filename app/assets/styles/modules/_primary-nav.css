@@ -5,6 +5,12 @@
     padding-top: 0;
   }
 
+  ul {
+    @mixin atMedium {
+      @mixin flexEnd;
+    }
+  }
+
   li {
     display: inline-block;
     margin-top: .5rem;

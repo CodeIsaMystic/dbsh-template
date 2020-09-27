@@ -1,3 +1,36 @@
+/*  =FlexBox mixins  */
+@define-mixin flexEnd {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+@define-mixin flexRowCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@define-mixin flexColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+/*  =Clearfix mixin  */
+@define-mixin clearfix {
+  &::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+}
+
+
+/*  =Media Queries mixins  */
 @define-mixin atXSmall {
   @media (min-width: 394px) {
     @mixin-content;
@@ -22,10 +55,3 @@
   }
 }
 
-@define-mixin clearfix {
-  &::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-}

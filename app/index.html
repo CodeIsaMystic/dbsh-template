@@ -37,10 +37,10 @@
       <div class="site-header__menu-icon__middle"></div>
     </div>
     <!-- menu-content-->
-    <div class="site-header__menu-content flex">
+    <div class="site-header__menu-content">
 
       <nav class="primary-nav">
-        <ul class="flex">
+        <ul>
           <li><a href="#home" id="home-link">Accueil</a></li>
           <li><a href="#about" id="about-link">A propos</a></li>
           <li><a href="#services" id="services-link">Services</a></li>
@@ -51,7 +51,7 @@
         <a href="#" class="btn btn--thin btn--blue open-modal">Contact</a>
       </div>
       <div class="social-icons">
-        <a href="https://fr-fr.facebook.com/" target="_blank" class="social-icons__link">
+        <a class="social-icons__link" href="https://fr-fr.facebook.com/" target="_blank">
           <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21.23 42.01">
             <title>facebook</title>
             <path
@@ -59,7 +59,7 @@
           </svg>
         </a>
 
-        <a href="https://www.instagram.com/" target="_blank" class="social-icons__link">
+        <a class="social-icons__link" href="https://www.instagram.com/" target="_blank">
           <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42.01 42.01">
             <title>instagram</title>
             <path
@@ -67,11 +67,8 @@
           </svg>
         </a>
 
-        <a href="https://www.gmail.com/" target="_blank" class="social-icons__link">
-          <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 48">
-            <title>mail</title>
-            <path d="M0,0V8L32,24,64,8V0H0ZM0,16V48H64V16L32,32Z" />
-          </svg>
+        <a class="social-icons__link" href="https://www.gmail.com/" target="_blank">
+          <svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>youTube</title><path d="M23.495 6.205a3.007 3.007 0 0 0-2.088-2.088c-1.87-.501-9.396-.501-9.396-.501s-7.507-.01-9.396.501A3.007 3.007 0 0 0 .527 6.205a31.247 31.247 0 0 0-.522 5.805 31.247 31.247 0 0 0 .522 5.783 3.007 3.007 0 0 0 2.088 2.088c1.868.502 9.396.502 9.396.502s7.506 0 9.396-.502a3.007 3.007 0 0 0 2.088-2.088 31.247 31.247 0 0 0 .5-5.783 31.247 31.247 0 0 0-.5-5.805zM9.609 15.601V8.408l6.264 3.602z"/></svg>
         </a>
       </div>
     </div>
@@ -99,15 +96,16 @@
   <!--  / large-hero Section  -->
 
   <!-- About section -->
-  <section id="about" class="u-page-section" data-matching-link="#about-link">
+  <section id="about" class="site-about u-page-section" data-matching-link="#about-link">
     <div class="wrapper">
+
       <!--   section title   -->
-      <h3 class="heading-secondary u-margin-bottom-small">Le sport répond à un besoin essentiel...</h3>
-      <h4 class="heading-tertiary u-margin-bottom">Participez à
+      <h3 class="heading-secondary">Le sport répond à un besoin essentiel...</h3>
+      <h4 class="heading-tertiary">Participez à
         <strong>la réalisation de vos objectifs, de votre bien-être et de votre santé</strong> !
       </h4>
       <!--  images -->
-      <div class="wrapper wrapper--medium u-margin-bottom reveal-img1">
+      <div class="wrapper wrapper--medium img-container reveal-img1">
         <img class="lazyload" 
              sizes="(min-width: 970px) 976px, 100vw" 
              data-srcset="assets/img/about-low-res.jpg 565w, 
@@ -116,10 +114,11 @@
              alt="Photo of a gym." />
       </div>
 
-      <!-- Main Rows  -->
+      <!-- Main Row  -->
       <div class="row row--gutters">
+
         <!--  1st Row  -->
-        <div class="row__medium-4 row__medium-4--larger  u-margin-bottom reveal-img2">
+        <div class="row__medium-4 row__medium-4--larger  img-container reveal-img2">
           <picture>
             <source sizes="405px"
                     data-srcset="assets/img/portrait-large.jpg 405w, 
@@ -139,7 +138,7 @@
         <!--  2sd Row  -->
         <div class="row__medium-8 row__medium-8--smaller">
           <div>
-            <h3 class="heading-secondary u-margin-bottom-small"> "Prenez soin de votre corps, c'est votre lieu de Vie..."</h3>
+            <h3 class="heading-secondary"> "Prenez soin de votre corps, c'est votre lieu de Vie..."</h3>
             <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. <strong><a href="#services">coaching personnel</a></strong> ullamco laboris nisi ut aliquip ex ea commodo consequat. dolor in reprehenderit in voluptate velit esse cillum nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
             <p>Duis aute irure dolor in<strong> forme, force et fitness</strong>voluptate velit esse cillum dolore eu fugiat nulla pariatur.Excepteur sint occaecat cupidatat non proident, sunt in culpaqui officia deserunt mollit anim id est laborum. Lorem ipsumdolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua.</p>
             <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu cupidatat non proident, sunt <strong><a href="#services">préparation physique</a></strong> deserunt mollit anim id est laborum velit esse cillum <strong>ré-éducation sportive</strong>. </p>
@@ -153,21 +152,19 @@
   <!--   / About section   -->
 
   <!--  Services section  -->
-  <section id="services" class="u-page-section u-light-gradient" data-matching-link="#services-link">
+  <section id="services" class="services u-page-section u-light-gradient" data-matching-link="#services-link">
     <div class="wrapper">
       <!--  section title -->
       <h2 class="heading-primary">
-        <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="64"
-          height="64" viewBox="0 0 64 64"><defs><style>.cls-1 {  fill: #F9930E;}</style></defs><title>star</title><path class="cls-1" d="M32,0L24,24H0L20,40,12,64,32,48,52,64,44,40,64,24H40Z" />
+        <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="40"
+          height="40" viewBox="0 0 64 64"><defs><style>.cls-1 {  fill: #F9930E;}</style></defs><title>star</title><path class="cls-1" d="M32,0L24,24H0L20,40,12,64,32,48,52,64,44,40,64,24H40Z" />
         </svg>
-        Nos
-        <span>Services</span>
+        Services
       </h2>
       <h3 class="heading-secondary">
         Le Coach prend en compte un ensemble de méthodes, d'informations.
       </h3>
-      <h4
-        class="heading-tertiary u-margin-bottom">
+      <h4 class="heading-tertiary">
         Il pose différents axes de réflexion, et reste focus pour vous orienter vers un coaching <strong>adapter à vos besoins, vos capacités et vos objectifs.</strong>
       </h4>
 
@@ -175,6 +172,7 @@
       <section class="row row--gutters-large">
         <!-- row sub-section med-6  -->
         <section class="row__medium-6">
+
           <!--service item training heart-->
           <article class="service-item">
             <svg class="service-item__icon svg-inline--fa fa-heartbeat fa-w-16" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="heartbeat"
@@ -274,9 +272,9 @@
   <section id="testimonials" class="testimonial u-page-section" data-matching-link="#testimonials-link">
     <div class="wrapper wrapper--no-padding-until-large">
       <!--  section  title -->
-      <h2 class="heading-primary heading-primary--no-mb">
-        <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64"><defs><style>.cls-1{fill:#F9930E;}</style></defs><title>comment</title><path class="cls-1" d="M0.72,0.08A0.67,0.67,0,0,0,0,.8V47.28A0.72,0.72,0,0,0,.72,48H48L64,64V0.72A0.67,0.67,0,0,0,63.28,0H0.8Z"/></svg>
-        <span>Témoignages</span>
+      <h2 class="heading-primary">
+        <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 64 64"><defs><style>.cls-1{fill:#F9930E;}</style></defs><title>comment</title><path class="cls-1" d="M0.72,0.08A0.67,0.67,0,0,0,0,.8V47.28A0.72,0.72,0,0,0,.72,48H48L64,64V0.72A0.67,0.67,0,0,0,63.28,0H0.8Z"/></svg>
+        Témoignages
       </h2>
 
       <div class="row row--gutters row--equal-height-at-large row--gutters-small u-margin-top">
@@ -349,9 +347,9 @@
   <section id="contact" class="u-page-section u-light-gradient" data-matching-link="#contact-link">
     <div class="wrapper">
       <!--  section  title  -->
-      <h2 class="heading-primary heading-primary--mb">
-        <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="64"
-          height="48" viewBox="0 0 64 48"><defs><style>.cls-1 {  fill: #F9930E;}</style></defs>
+      <h2 class="heading-primary">
+        <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="40"
+          height="40" viewBox="0 0 64 48"><defs><style>.cls-1 {  fill: #F9930E;}</style></defs>
           <title>mail</title>
           <path class="cls-1" d="M0,0V8L32,24,64,8V0H0ZM0,16V48H64V16L32,32Z" />
         </svg>
@@ -365,44 +363,83 @@
       </p>
 
       <!-- Form section -->
-      <form id="formSendSurvey">
+      <div class="contact__form">
+        <form class="form" id="form" action="#">
 
-        <div class="form-group">
-          <label id="firstname" for="firstname">Prénom</label>
-          <input type="text" name="firstname" id="firstname" class="form-control" placeholder="Ecrivez votre prénom"
-            required>
+          <div class="form__group">
+            <input class="form__input" type="text" name="firstname" id="firstname" placeholder="Votre prénom" required>
+            <label class="form__label" for="firstname">Prénom</label>
+          </div>
+
+
+          <div class="form__group">
+            <input class="form__input" type="text" name="lastname" id="lastname" placeholder="Votre nom" required>
+            <label class="form__label" for="lastname">Nom</label>
+          </div>
+
+
+          <div class="form__group">
+            <input class="form__input" type="email" name="email" id="email" placeholder="Votre email" required>
+            <label class="form__label" for="email">Email</label>
+          </div>
+
+
+          <div class="form__group">
+            <input class="form__input" type="tel" name="phone" id="phone" placeholder="Votre téléphone * (optionnel)">
+            <label class="form__label" for="phone">Téléphone</label>
+          </div>
+
+
+        <div class="checkbox-group">
+          <div class="form__checkbox-group">
+              <input class="form__checkbox-input" type="checkbox" name="subject" id="coaching">
+              <label class="form__checkbox-label" for="subject">
+                <span class="form__checkbox-button"></span>
+                Coaching Personnel</label>
+            </div>
+
+
+            <div class="form__checkbox-group">
+              <input class="form__checkbox-input" type="checkbox" name="subject" id="partnership">
+              <label class="form__checkbox-label" for="subject">
+                <span class="form__checkbox-button"></span>
+                Partenariat / Collaboration</label>
+            </div>
+
+
+            <div class="form__checkbox-group">
+              <input class="form__checkbox-input" type="checkbox" name="subject" id="physical">
+              <label class="form__checkbox-label" for="subject">
+                <span class="form__checkbox-button"></span>
+                Préparation Physique</label>
+            </div>
         </div>
+          
+          
 
-        <div class="form-group">
-          <label id="lastname" for="lastname">Nom</label>
-          <input type="text" name="lastname" id="lastname" class="form-control" placeholder="Ecrivez votre nom"
-            required>
-        </div>
 
-        <div class="form-group">
-          <label for="email" id="email-label">Email</label>
-          <input type="email" name="email" id="email" class="form-control" placeholder="Ecrivez votre email" required>
-        </div>
+          <button class="form-btn btn btn--large btn--orange" type="submit" id="submit">
+            C'est Parti  &rarr;
+          </button>
 
-        <button type="submit" id="submit" class="form-btn btn btn--large btn--orange">
-          C'est Parti !
-        </button>
+        </form>
+      </div>
 
-      </form>
+      
 
     </div>
   </section>
   <!--   /  Contact section  -->
 
   <!--  Footer section   -->
-  <footer class="site-footer">
+  <footer class="site-footer u-page-section">
       <!--  Footer Copyrights  -->
       <p class="site-footer__text">
         Copyright &copy; 2020 DB sports santé. All rights reserved.
       </p>
       <!--  Social Icons  -->
       <div class="site-footer__icons social-icons">
-        <a href="https://fr-fr.facebook.com/" target="_blank" class="social-icons__link social-icons__link--dark">
+        <a class="social-icons__link social-icons__link--dark" href="https://fr-fr.facebook.com/" target="_blank">
           <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21.23 42.01">
             <title>facebook</title>
             <path
@@ -410,7 +447,7 @@
           </svg>
         </a>
 
-        <a href="https://www.instagram.com/" target="_blank" class="social-icons__link social-icons__link--dark">
+        <a class="social-icons__link social-icons__link--dark" href="https://www.instagram.com/" target="_blank">
           <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42.01 42.01">
             <title>instagram</title>
             <path
@@ -418,11 +455,8 @@
           </svg>
         </a>
 
-        <a href="https://www.gmail.com/" target="_blank" class="social-icons__link social-icons__link--dark">
-          <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 48">
-            <title>mail</title>
-            <path d="M0,0V8L32,24,64,8V0H0ZM0,16V48H64V16L32,32Z" />
-          </svg>
+        <a class="social-icons__link social-icons__link--dark" href="https://www.gmail.com/" target="_blank">
+          <svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>youTube</title><path d="M23.495 6.205a3.007 3.007 0 0 0-2.088-2.088c-1.87-.501-9.396-.501-9.396-.501s-7.507-.01-9.396.501A3.007 3.007 0 0 0 .527 6.205a31.247 31.247 0 0 0-.522 5.805 31.247 31.247 0 0 0 .522 5.783 3.007 3.007 0 0 0 2.088 2.088c1.868.502 9.396.502 9.396.502s7.506 0 9.396-.502a3.007 3.007 0 0 0 2.088-2.088 31.247 31.247 0 0 0 .5-5.783 31.247 31.247 0 0 0-.5-5.805zM9.609 15.601V8.408l6.264 3.602z"/></svg>
         </a>
       </div>
   </footer>

@@ -22,29 +22,20 @@ body {
 
 p {
   width: 100%;
-  margin: 0 auto 1.6rem;  
   text-align: center;
-
-  @mixin atSmall {
-      width: 80%;
-  }
-
-  @mixin atMedium {
-      width: 70%;
-  }
-
-  @mixin atLarge {
-    max-width: 90rem
-  }
+  padding-bottom: 1.5rem;
 }
 
-
-p  strong > a,
 p > strong {
   font-weight: 500;
+  color: $mainSemiDarkBlue;
+}
+
+p  strong > a {
   color: $mainSemiDarkOrange;
   transition: color .4s; 
 }
+
 p > strong:hover a {
     color: $mainOrange;
 }

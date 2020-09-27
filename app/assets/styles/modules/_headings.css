@@ -1,35 +1,31 @@
-/*   =Heading primary   */
+/* =Heading primary   */
 .heading-primary {
-  margin-bottom: 1.5rem;
-  font-size: 4.5rem;
-  font-weight: 300;
+  padding-bottom: 4.5rem;
+  margin: 0 auto;
+  font-size: 3rem;
+  font-weight: 500;
   text-align: center;
   color: $mainDarkBlue;
 
-  span, strong {
-    font-weight: 500;
-  }
   
   @mixin atXSmall {
-    font-size: 5rem;
+    font-size: 3.5rem;
   }
+
   @mixin atSmall {
-    font-size: 6rem;
+    font-size: 4rem;
   }
 
-  &--mb {
-    margin: 0 auto 1.5rem;
-
-    @mixin atMedium {
-      margin: 0 auto 2.5rem;
-    }
+  @mixin atMedium {
+    padding-bottom: 7rem
   }
+
 
   & svg {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: .9rem;
+    margin-bottom: .2rem;
 
     @mixin atSmall {
       display: inline-block;
@@ -37,15 +33,16 @@
       top: .8rem;
       margin-right: .8rem;
       margin-left: 0;
-      margin-bottom: 0;
+      margin-bottom: .5rem;
     }
-  }
+  } 
 }
 
-
-/*   =Heading  Secondary   */
+/* =Heading  Secondary */
 .heading-secondary {
-  font-size: 2.6rem;
+  padding-bottom: 1.2rem;
+  margin: 0 auto;
+  font-size: 2.2rem;
   font-weight: 300;
   letter-spacing: -2px;
   word-spacing: 1px;
@@ -53,37 +50,36 @@
   color: $mainDarkBlue;
 
   @mixin atXSmall {
-    font-size: 3rem;
+    font-size: 2.6rem;
   }
 
   @mixin atSmall {
-    font-size: 3.4rem;
+    font-size: 3rem;
   }
 }
 
 
-/*   =Heading  Tertiary   */
-.heading-tertiary {
-  width: 75%;
-  font-size: 1.8rem;
+/* =Heading  Tertiary */
+.heading-tertiary {  
+  padding-bottom: 4.5rem;
+  margin: 0 auto;
+  font-size: 1.6rem;
   font-weight: 300;  
   text-align: center;
   letter-spacing: 1px;
   color: $mainOrange;
 
   @mixin atXSmall {
-    font-size: 2rem;
-  }
-
-  @mixin atSmall {
-    font-size: 2.5rem;
+    font-size: 2.1rem;
   }
 
   @mixin atMedium {
     width: 100%;
+    padding-bottom: 7rem;
+    font-size: 2.5rem;
   }
 
-  span, strong {
+  strong {
     font-weight: 500;
   }
 }

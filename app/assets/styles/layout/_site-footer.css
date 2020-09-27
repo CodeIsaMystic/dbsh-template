@@ -2,27 +2,17 @@
   display: block;
   margin: 0 auto;
   text-align: center;
-  padding: .8rem 0;
   background-color: $mainLightGray;
   color: $mainDarkBlue;
 
   @mixin atMedium {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @mixin flexColumn;
   }
 
   &__text {
-    margin-top: 1rem;
     font-weight: 300;
-
-    @mixin atMedium {
-      margin-top: 1.5rem;
-    }
   }
   &__icons {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @mixin flexRowCenter;
   }
 }
