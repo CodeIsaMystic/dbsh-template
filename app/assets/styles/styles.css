@@ -13,7 +13,7 @@
 
 
 @import 'layout/_site-header';
-@import 'layout/_large-hero';
+@import 'layout/_site-hero';
 @import 'layout/_site-about';
 @import 'layout/_testimonials';
 @import 'layout/_site-form';

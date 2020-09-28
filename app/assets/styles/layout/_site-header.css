@@ -1,5 +1,6 @@
 .site-header {
   position: absolute;
+  /*max-width: 123.6rem;*/
   width: 100%;
   padding: .6rem 0;
   z-index: 2;
@@ -19,15 +20,8 @@
     }
   }
 
-  &__btn-container {
-    margin-top: 1rem;
 
-    @mixin atMedium {
-      margin-top: 0;
-      margin-right: .5rem;
-    }
-  }
-
+  /*  =Logo box  */
   &__logo {
     position: absolute;
     top: 0;
@@ -57,19 +51,32 @@
     text-indent: -9999px;
   }
 
+  /*  =Menu Icon  */
   &__menu-icon {
-    width: 2rem;/**/
-    height: 2rem;/**/
+
+    /*  sticky header 
+    position: sticky;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 2px;
+    background-color: rgba($mainDarkBlue, .35); */
+
     position: absolute;
+    width: 2rem;
+    height: 2rem;
     top: 2rem;
     right: 2rem;
     z-index: 10;
-    cursor: pointer;
+    cursor: pointer; 
+
 
     &::before {
       position: absolute;
-      top: 0;
-      left: 0;
+      top: 0rem;
+      left: 0rem;
+      /*top: .5rem;
+      left: .5rem;*/
+
       content: '';
       width: 20px;
       height: 3px;
@@ -81,8 +88,11 @@
 
     &__middle {
       position: absolute;
-      top: 8px;
-      left: 0;
+      top: .8rem;
+      left: 0.rem;
+      /*top: 1.3rem;
+      left: .5rem;*/
+
       width: 20px;
       height: 3px;
       background-color: $mainTextColor;
@@ -93,8 +103,11 @@
 
     &::after {
       position: absolute;
-      bottom: 0;
-      left: 0;
+      bottom: 0rem;
+      left: 0rem;
+      /*bottom: .5rem;
+      left: .5rem;*/
+      
       content: '';
       width: 20px;
       height: 3px;
@@ -121,11 +134,12 @@
     }
 
     &::after {
-      transform: rotate(-45deg) scaleX(1.25) translateY(1px);
+      transform: rotate(-45deg) scaleX(1.25) translateY(0);
     }
   }
 
 
+  /*   =Menu Content  */
   &__menu-content {
     display: none;
     position: relative;
@@ -163,6 +177,16 @@
       opacity: 1;
 
       transform: scale(1);
+    }
+  }
+
+  /*  =Btn container  */
+  &__btn-container {
+    margin-top: 1rem;
+
+    @mixin atMedium {
+      margin-top: 0;
+      margin-right: .5rem;
     }
   }
 }

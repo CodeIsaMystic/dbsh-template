@@ -32,25 +32,25 @@
 
 /*  =Media Queries mixins  */
 @define-mixin atXSmall {
-  @media (min-width: 394px) {
+  @media screen and (min-width: 394px) and (min-height: 460px) {
     @mixin-content;
   }
 }
 
 @define-mixin atSmall {
-  @media (min-width: 768px) {
+  @media screen and (min-width: 768px) and (min-height: 460px) {
     @mixin-content;
   }
 }
 
 @define-mixin atMedium {
-  @media (min-width: 996px) {
+  @media screen and (min-width: 996px) {
     @mixin-content;
   }
 }
 
 @define-mixin atLarge {
-  @media (min-width: 1200px) {
+  @media screen and (min-width: 1200px) {
     @mixin-content;
   }
 }

@@ -1,10 +1,18 @@
 
 .contact__form {
   width: 100%;
-
-  /*  test with wrapper  */
-  padding: 0 2rem;
+  padding: 4.5rem 0;
   margin: 0 auto;
+
+  @mixin atSmall {    
+    padding: 4.5rem 2rem 0;
+  }
+
+  @mixin atMedium {
+    padding: 7rem 2rem 0;
+  }
+
+
 }
 
 .form {
@@ -16,25 +24,18 @@
   &__group {
     width: 100%;
     margin: 0 auto 2rem;
-   /* margin-bottom: 2rem;*/
 
     @mixin atSmall {
       width: 65%;
     }
   }
-  
-  /*
-  &__group:not(:last-child) {
-    margin-bottom: 2rem;
-  }
-  &__group:last-child {
-    margin-top: 4rem;
-  }*/
+
 
   &__input {
     display: block;
     width: 90%;
     padding: 1.5rem 2rem;
+    margin: 0 auto;
     font-size: 1.5rem;
     font-family: inherit;
     color: inherit;
@@ -93,13 +94,7 @@
     
     &:not(:last-child) {
       padding-right: 2rem;
-    }    /*width: 49%;*/
-    /*display: flex;*/
-
-    @mixin atSmall {
-      /*display: block;*/
-      /*margin-bottom: 2rem;*/
-    }
+    } 
   }
 
   &__checkbox-input {
@@ -115,228 +110,38 @@
 
   &__checkbox-button {
     display: inline-block;
-    height: 1.2rem;
-    width: 1.2rem;
     position: absolute;
     left: 0;
-    top: 5px;
-    border: 2px solid $mainOrange;
-    /*border-radius: 50%;*/
+    top: 0;
+    height: 1.7rem;
+    width: 1.7rem;
+    border: 2px solid $mainSemiDarkOrange;
 
 
 
-    &::after {
-      content: "";
-      display: block;
-      height: 1.2rem;
-      width: 1.2rem;
-      /*border-radius: 50%;*/
+    &:after {
+      content: "\2713\0020";
       position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      background-color: $mainOrange;
-      color: $mainOrange;
-      opacity: 0;
-      transition: all .2s;
-    }
-
-
-  }
-
-  &__checkbox-input::checked ~ &__checkbox-label &__checkbox-button::after {
-    opacity: 1;
-    /*background-color: $mainOrange;*/
-  }
-}
-
-
-
-
-
-
-
-/*
-}
-
-*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  /* padding: 4rem 1rem;
-  
-  & label {
-    display: flex;
-    align-items: center;
-    font-size: 1.6rem;
-    margin-bottom: .3rem;
-    color: $mainSemiDarkBlue;
-
-    @mixin atXSmall {
-      font-size: 1.8rem;    
-      margin-bottom: .8rem;
-    }
-  }
-  
-  & input,
-  button {
-    margin: 0;
-    font-family: inherit;
-    font-size: inherit;
-    line-height: inherit;
-  }
-
-
-  .form-group {
-    display: block;
-    width: 100%;
-    margin: 0 auto 1.3rem auto;
-    padding: 0;
-    
-    @mixin atXSmall {
-      width: 49%;
-    }
-
-    @mixin atSmall {
-      display: inline-block;
-      width: 49%;    
-      margin: 0 auto 2rem auto;    
-      padding: .4rem;
-    }
-  }
-  
-  .form-control {
-    display: block;
-    width: 100%;
-    height: 3.8rem;
-    padding: .6rem 1.2rem;
-    color: --color-gray;
-    background-color: #f6f6ff;
-    background-clip: padding-box;
-    border: 1px solid #ced4da;
-    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-  }
-  
-  .form-control:focus {
-    border-color: $mainSemiDarkOrange;
-    outline: 0;
-    box-shadow: 0 0 0 .2rem rgba(246, 246, 255, 0.25);
-  }*/
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  /*  =Checkbox  */
-
-  /*
-  & .checkbox-group {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    aligns-item: center;
-    
-    & .checkbox-label {
-      display: block;
+      top: .735rem; left: .65rem;
       font-size: 1rem;
       font-weight: 700;
+      color: $mainSemiDarkOrange;
+      opacity: 0;
+      transform: translate(-50%, -50%);
+      transition: all .2s;
     }
-
   }
-  
-  .checkbox-input {
-    display: inline-block;
-    margin: 0;
-    padding: 0;
+
+  &__checkbox-input:checked ~ &__checkbox-label &__checkbox-button:after {
+    opacity: 1;
   }
-*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 
   /* =Form button */
-
-  
   .form-btn {
     display: block;
-    width: 30%;
+    width: 60%;
     margin: 3rem auto 0;
     cursor: pointer;    
     border: none;
@@ -346,8 +151,9 @@
     &:hover {
       transform: scale(1.03);
     }
-/*
-    @mixin atMedium {
+    
+    @mixin atSmall {    
       width: 30%;
-    }*/
+      font-size: 1.5rem;
+    }
   }

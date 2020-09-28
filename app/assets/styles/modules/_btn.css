@@ -14,15 +14,19 @@
   }
 
   &--large {
-    padding: 1.3rem 1.6rem;
+    padding: 1rem 1.3rem;
     font-size: 1.3rem;
     
     @mixin atXSmall {
+      padding: 1.3rem 1.6rem;
+    }
+
+    @mixin atSmall {
       padding: 1.7rem 3rem;
       font-size: 1.7rem;
     }
 
-    @mixin atSmall {
+    @mixin atMedium {
       font-size: 2rem;
     }
   }

@@ -22,6 +22,7 @@
     padding: 0 2rem 1rem 2rem;
   }
 
+
   &__photo {
     position: relative;
     top: -8rem;
@@ -57,16 +58,21 @@
   }
 
   &__subtitle {
+    margin: .4rem 0;
     color: $mainSemiDarkOrange;
     text-align: center;
     font-weight: 400;
     font-size: 1.5rem;
-    margin: .4rem 0 1.6rem 0;
+
+    @mixin atSmall {
+      margin: .4rem 0 1.6rem 0;
+    }
   }
   
   & p {
     width: 100%;
-    margin: 0;
+    margin: 0;  
+    padding-bottom: 1.5rem;
   }
 }
   

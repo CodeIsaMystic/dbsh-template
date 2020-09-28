@@ -1,39 +1,15 @@
-/*.services {
-/* =Set the section here ??? then the card ???
-  & .row {
-    padding: 4.5rem auto 0;
-
-    @mixin atMedium {
-      padding: 7rem auto 0;
-    }
-  }
-
-
-  & section {
-    & section:first-of-type article,
-    & section:last-child article:first-child {
-      margin-bottom: 3rem;
-
-      @mixin atMedium {
-        margin-bottom: 0;
-      }
-
-    }
-    & section:last-of-type article:not(last-child) {
-
-      @mixin atMedium {
-      padding-bottom: 4rem; 
-      }
-    } 
-  }
- 
-}*/
-
+/*  =Service Item  */
 .service-item {
   position: relative;
   width: 75%;
-  height: 25.2rem;
+  min-height: 14.7rem;
   margin: 0 auto;
+
+
+  @mixin atMedium {
+    height: 25.2rem;
+  }
+
 
   @mixin atMedium {
     height: 26.6rem;
@@ -41,15 +17,6 @@
 
   @mixin atLarge {
     height: 20.7rem;
-  }
-
- 
-  @mixin atMedium {
-    width: 100%; 
-   /* 
-    &:not(:last-child) {
-      padding-bottom: 0;
-    }*/
   }
 
   @mixin atLarge {
@@ -74,8 +41,6 @@
   &__title {
     font-size: 2.6rem;
     font-weight: 400;
-    /*margin-top: .7rem;
-    margin-bottom: 1.3rem;*/
     text-align: center;
 
     @mixin atLarge {
@@ -85,19 +50,27 @@
   }
 
   &__sub-title {
-   /* margin-top: 0;*/
-    margin-bottom: 1.5rem;
+    margin-bottom: .5rem;
     text-align: center;
 
+    @mixin atSmall {
+      margin-bottom: 1.5rem;
+    }
+    
     @mixin atLarge {
       text-align: left;
     }
   }
   p {    
     width: 100%;
-    margin: 0;
+    margin: 0;        
+    padding-bottom: 3.5rem;
     text-align: center;
 
+    @mixin atMedium {
+      padding-bottom: 1.5rem;
+    }
+    
     @mixin atLarge {
       width: 100%;
       margin: 0;
