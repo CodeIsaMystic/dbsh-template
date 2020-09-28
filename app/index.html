@@ -279,7 +279,7 @@
 
       <div class="row row--gutters row--equal-height-at-large row--gutters-small u-margin-top">
         <div class="row__large-4">
-          <div class="card">
+          <div class="card reveal-imgT">
             <div class="card__photo">
               <img class="lazyload" sizes="160px"
                 data-srcset="assets/img/Testimonial-1.jpg 160w, assets/img/Testimonial-1-hi-dpi.jpg 320w"
@@ -299,7 +299,7 @@
         </div>
 
         <div class="row__large-4">
-          <div class="card">
+          <div class="card reveal-imgT">
             <div class="card__photo">
               <img class="lazyload" sizes="160px"
                 data-srcset="assets/img/Testimonial-2.jpg 160w, assets/img/Testimonial-2-hi-dpi.jpg 320w"
@@ -319,7 +319,7 @@
           </div>
         </div>
 
-        <div class="row__large-4">
+        <div class="row__large-4 reveal-imgT">
           <div class="card">
             <div class="card__photo">
               <img class="lazyload" sizes="160px"
@@ -359,7 +359,6 @@
       <p>
         Seulement 2 minutes pour remplir ce formulaire et tu auras <strong>ton premier conseil coach sport santé
           entièrement gratuit</strong>.
-        Après l'envoi, tu seras rediriger directement vers le questionnaire.
       </p>
 
       <!-- Form section -->
@@ -389,34 +388,32 @@
             <label class="form__label" for="phone">Téléphone</label>
           </div>
 
-
-        <div class="checkbox-group">
-          <div class="form__checkbox-group">
-              <input class="form__checkbox-input" type="checkbox" name="subject" id="coaching">
-              <label class="form__checkbox-label" for="coaching">
-                <span class="form__checkbox-button"></span>
-                Coaching Personnel</label>
-            </div>
-
-
+          <!--  Checkbox group  -->
+          <div>
             <div class="form__checkbox-group">
-              <input class="form__checkbox-input" type="checkbox" name="subject" id="partnership">
-              <label class="form__checkbox-label" for="partnership">
-                <span class="form__checkbox-button"></span>
-                Partenariat / Collaboration</label>
-            </div>
+                <input class="form__checkbox-input" type="checkbox" name="subject" id="coaching">
+                <label class="form__checkbox-label" for="coaching">
+                  <span class="form__checkbox-button"></span>
+                  Coaching Personnel</label>
+              </div>
 
 
-            <div class="form__checkbox-group">
-              <input class="form__checkbox-input" type="checkbox" name="subject" id="physical">
-              <label class="form__checkbox-label" for="physical">
-                <span class="form__checkbox-button"></span>
-                Préparation Physique</label>
-            </div>
-        </div>
-          
-          
+              <div class="form__checkbox-group">
+                <input class="form__checkbox-input" type="checkbox" name="subject" id="partnership">
+                <label class="form__checkbox-label" for="partnership">
+                  <span class="form__checkbox-button"></span>
+                  Partenariat / Collaboration</label>
+              </div>
 
+
+              <div class="form__checkbox-group">
+                <input class="form__checkbox-input" type="checkbox" name="subject" id="physical">
+                <label class="form__checkbox-label" for="physical">
+                  <span class="form__checkbox-button"></span>
+                  Préparation Physique</label>
+              </div>
+          </div>
+    
 
           <button class="form-btn btn btn--large btn--orange" type="submit" id="submit">
             C'est Parti  &rarr;

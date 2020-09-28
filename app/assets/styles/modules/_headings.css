@@ -20,6 +20,11 @@
     padding-bottom: 7rem
   }
 
+  &--modal {
+    padding-bottom: 2rem;
+    font-size: 2.2rem;
+  }
+
 
   & svg {
     display: block;

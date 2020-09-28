@@ -35,44 +35,78 @@ class Modal {
       <div class="modal__inner">
 
         <!-- Modal title -->
-        <h2 class="section-title section-title--blue section-title--less-margin">
-          Commences <strong>Dès Aujourd'hui</strong> !
+        <h2 class="heading-primary heading-primary--modal">
+          Commences Dès Aujourd'hui !
         </h2>
 
-        <div class="wrapper wrapper--medium generic-content-container">
+        <div class="wrapper">
 
-          <!-- P description 
-          <p class="d-none-until-XSmall">
-          Dès aujourd'hui, tu accèdes au premier <strong>questionnaire d'entrée de Coaching</strong>. C'est gratuit, aucun engagement, cela nous permet déjà de prendre les premières informations nécessaires pour te proposer la méthode adaptée à tes besoins et te conseiller selon tes besoins vers les priorités que tu pourrai mettre en place. 
-          </p>
-          -->
+          <!-- P description -->
           <p>
-          Seulement 2 minutes pour remplir ce formulaire et tu auras <strong>ton premier conseil coach sport santé entièrement gratuit</strong>.
+            Seulement 2 minutes pour remplir ce formulaire et tu auras <strong>ton premier conseil coach sport santé
+              entièrement gratuit</strong>.
           </p>
+          
 
           <!-- Form section -->
-          <form id="formSendSurvey">
-  
-            <div class="form-group">
-              <label id="firstname" for="firstname">Prénom</label>
-              <input type="text" name="firstname" id="firstname" class="form-control" placeholder="Ecrivez votre prénom" required>
+          <form class="form" id="form" action="#">
+
+            <div class="form__group">
+              <input class="form__input" type="text" name="firstname" id="firstname" placeholder="Votre prénom" required>
+              <label class="form__label" for="firstname">Prénom</label>
+            </div>
+
+
+            <div class="form__group">
+              <input class="form__input" type="text" name="lastname" id="lastname" placeholder="Votre nom" required>
+              <label class="form__label" for="lastname">Nom</label>
+            </div>
+
+
+            <div class="form__group">
+              <input class="form__input" type="email" name="email" id="email" placeholder="Votre email" required>
+              <label class="form__label" for="email">Email</label>
+            </div>
+
+
+            <div class="form__group">
+              <input class="form__input" type="tel" name="phone" id="phone" placeholder="Votre téléphone * (optionnel)">
+              <label class="form__label" for="phone">Téléphone</label>
+            </div>
+
+
+            <!--  Checkbox group  -->
+            <div>
+              <div class="form__checkbox-group">
+                <input class="form__checkbox-input" type="checkbox" name="subject" id="coaching">
+                <label class="form__checkbox-label" for="coaching">
+                  <span class="form__checkbox-button"></span>
+                  Coaching Personnel</label>
+              </div>
+
+
+              <div class="form__checkbox-group">
+                <input class="form__checkbox-input" type="checkbox" name="subject" id="partnership">
+                <label class="form__checkbox-label" for="partnership">
+                  <span class="form__checkbox-button"></span>
+                  Partenariat / Collaboration</label>
+              </div>
+
+
+              <div class="form__checkbox-group">
+                <input class="form__checkbox-input" type="checkbox" name="subject" id="physical">
+                <label class="form__checkbox-label" for="physical">
+                  <span class="form__checkbox-button"></span>
+                  Préparation Physique</label>
+              </div>
             </div>
   
-            <div class="form-group">
-              <label id="lastname" for="lastname">Nom</label>
-              <input type="text" name="lastname" id="lastname" class="form-control" placeholder="Ecrivez votre nom" required>
-            </div>
-  
-            <div class="form-group">
-              <label for="email" id="email-label">Email</label>
-              <input type="email" name="email" id="email" class="form-control" placeholder="Ecrivez votre email" required>
-            </div>
-  
-            <button type="submit" id="submit" class="btn-submit">
-              C'est Parti !
+            <button class="form-btn btn btn--large btn--orange" type="submit" id="submit">
+              C'est Parti  &rarr;
             </button>
   
           </form>
+          
 
         </div>
           

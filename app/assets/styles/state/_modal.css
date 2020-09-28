@@ -5,11 +5,12 @@
   bottom: 0;
   left: 0;
   right: 0;
+  width: 100%;
   height: 100vh;
   transform: scale(1.2);
   transition: all .3s ease-out;
   z-index: 5;
-  background: rgba($mainLightGray, .95);
+  background: $mainLightGray;
   visibility: hidden;
   opacity: 0;
 
@@ -22,6 +23,15 @@
   &__inner {
     flex: 1;
     margin: auto;
+
+
+    & p {
+      width: 90%;
+      padding-bottom: 1.5rem;
+      margin: 0 auto;
+      font-size: 1.4rem;
+    }
+    
   }
 
   &__close {
