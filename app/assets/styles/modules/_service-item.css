@@ -47,6 +47,7 @@
     text-align: center;
 
     @mixin atLarge {
+      margin: .5rem auto .5rem 0;
       text-align: left;
       font-size: 3rem;
     }

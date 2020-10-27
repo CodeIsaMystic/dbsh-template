@@ -1,7 +1,7 @@
 .site-header {
   position: absolute;
   width: 100%;
-  max-width: 123.6rem;
+  /*max-width: 123.6rem;*/
   padding: .6rem 0;
   z-index: 2;
 
