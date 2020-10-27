@@ -11,8 +11,6 @@
   @mixin atMedium {
     padding: 7rem 2rem 0;
   }
-
-
 }
 
 .form {
@@ -31,7 +29,9 @@
   }
 
 
-  &__input {
+  /*   form__text  => textarea  */
+  &__input,
+  &__text {
     display: block;
     width: 90%;
     padding: .8rem 1rem;
@@ -63,13 +63,25 @@
 
     /*  =When focused & invalid text  */
     &:focus:invalid {
+      outline: none;
+      border: none;
       border-bottom: 3px solid $mainOrange;
     }
 
-    /*   =Become darker when typing (chrome & safari)  */
+    /*   =Become darker when typing (chrome & safari) */
     &::-webkit-input-placeholder {
       color: $mainSemiDarkBlue;
-    }
+    } 
+
+    /*   =Trying to custom textarea placeholder
+    &::-webkit-input-placeholder,
+    &:-moz-placeholder, 
+    &::-moz-placeholder,
+    &:-ms-input-placeholder,
+    &::placeholder {
+      opacity: 1;
+      color: $mainSemiDarkBlue;
+    } */
   }
 
   &__label {
@@ -83,15 +95,29 @@
   }
 
   /*  =Make the label disappear  */
-  &__input:placeholder-shown + &__label {
+  &__input:placeholder-shown + &__label
+  {
     opacity: 0;
     visibility: hidden;
     transform: translateY(-4rem);
   }
+  /*  =Trying to custom textarea placeholder-shown
+  
+  &__text::-webkit-input-placeholder-shown + &__label,
+  &__text:-moz-placeholder-shown + &__label, 
+  &__text::-moz-placeholder-shown + &__label,
+  &__text:-ms-input-placeholder-shown + &__label,
+  &__text::placeholder-shown + &__label
+  
+
+  &__text:placeholder-shown + &__label
+  */ 
 
 
 
-
+  &__checkboxes {
+    margin: 4rem auto 0;
+  }
 
   /*  =Build the checkbox btn  */
   &__checkbox-group {
