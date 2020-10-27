@@ -159,16 +159,9 @@
     margin: 1rem auto 0;
     cursor: pointer;    
     border: none;
-    transition: all 0.7s ease-in-out;
-
-    
-    &:hover {
-      transform: scale(1.03);
-    }
     
     @mixin atSmall {    
       width: 30%;
       margin: 3rem auto 0;
-      font-size: 1.5rem;
     }
   }

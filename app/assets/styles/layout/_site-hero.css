@@ -96,12 +96,12 @@
   }
 
   &__btn {
-    margin-top: 1.4rem;
+    margin: 1.4rem auto;
+    padding: 0;
 
-    animation: moveInBottom 1s 1s ease-out;
 
     @mixin atSmall {    
-      margin-top: 3.4rem;
+      margin: 3.4rem auto;
     }
   }
 
