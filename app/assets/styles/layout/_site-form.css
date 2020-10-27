@@ -156,12 +156,11 @@
   .form-btn {
     display: block;
     width: 60%;
-    margin: 1rem auto 0;
+    margin: 4rem auto 0;
     cursor: pointer;    
     border: none;
     
     @mixin atSmall {    
       width: 30%;
-      margin: 3rem auto 0;
     }
   }
