@@ -8,11 +8,11 @@ The client doesn't have any experience on the question, so the effort was placed
 
 
 
-##### **MY ROLE**
+###### **MY ROLE**
 
 Lead, Develop and Design - leading on my own, keeping a short and efficient communication with the client, developing, testing and applying, exploring possibilities in relation with the needs of the project, making choices
 
-##### **WORKED WITH**
+###### **WORKED WITH**
 
 Pure CSS & Native Javascript<br/> 
 Bootstrap 4, PHP & MySQL on the Backend<br/> 
@@ -22,7 +22,7 @@ Basic graphical exercise...<br/>
 Working on a professional context with SCRUM Methodology<br/>
 
 
-#####  **PROBLEM**
+######  **PROBLEM**
 
 ## How to respond to a client need which not have any budget or experiences... The problem was to propose a moderne product, started from scratch, handling all aspects of a web project without expertise but simply a sense of professional way to do. How to think in Design, in Landing Page Optimization, in UI/UX, in Frontend and Backend programming solutions and finally how to find out, giving for the client an easy way to published, manage the application...
 
