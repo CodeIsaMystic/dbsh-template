@@ -3,8 +3,8 @@
 # Mastering Modern Workflow
 
 
-## **Provide a website mockup for a personal trainer, seeking a web solution for a window open to the web. A simple product but effective, modern, good looking with some of the best practices and simples applications. 
-The client doesn't have any experience on the question, so the effort was placed on different parts. A good design with a logo, colors, fonts... A modern and representative mockup. Some simple functionalities, efficient and performant with also basics animations too.**
+## **Provide a website mockup for a personal trainer, seeking a web solution for a window open to the web. A simple product but effective, modern, good looking with some of the best practices and simples applications.** 
+**The client doesn't have any experience on the question, so the effort was placed on different parts. A good design with a logo, colors, fonts... A modern and representative mockup. Some simple functionalities, efficient and performant with also basics animations too.**
 
 
 
