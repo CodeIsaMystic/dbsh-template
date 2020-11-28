@@ -1,6 +1,6 @@
 ###### D.B.S.H CASE STUDY - 2019 / 2020
 
-# Mastering Modern Workflow
+# <h1 align="center">Mastering Modern Workflow</h1>
 
 
 ## **Provide a website mockup for a personal trainer, seeking a web solution for a window open to the web. A simple product but effective, modern, good looking with some of the best practices and simples applications.** 
