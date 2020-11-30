@@ -26,7 +26,7 @@ Working on a professional context with SCRUM Methodology<br/>
 ###### **NOTE**
 
 
-I initiate this case study in a frontend thought, without providing any Backend solutions. Later I used this project to validate my developer of web site and web applications. I tryed to find some Backend solutions, using PHP, Bootstrap 4 and MySQL, but the effort was essentially made on the Frontend part. I truly like the idea of serverless technologies. 
+I initiate this case study in a frontend thought, without providing any Backend solutions. Later, I used this project to validate my developer of web site and web applications. I tryed to find some Backend solutions, using PHP, Bootstrap 4 and MySQL, but the effort was essentially made on the Frontend part. I truly like the idea of serverless technologies. 
 
 
 
@@ -38,6 +38,16 @@ I initiate this case study in a frontend thought, without providing any Backend 
 
 
 
+
+
+
+It was tuff to start from scratch, thinking in Design, UX and  being efficient. I spent my time to find out some solutions, every times trying to be professional and giving to the client some professional responses. 
+We focused on simples applications because it was not necessary to develop more the concept. The professional in question, already have a current position as personal trainer. That's for him just an additional activity and he just already have some clients. We're just wondering to build a "Window Open to the Web" for him, we don't need complicates application or functionalities and that's why I choose to develop some basics animations, some basics functionalities and so to use some Vanilla Javascript. 
+
+In term of Landing Page Optimization, we only focused two main goals. First of all, trying to sue the website to give more infos and getting new contact.
+And in a the second thought, maybe that starting a Newsletter campaign could be a great idea for his business. 
+
+In these thoughts, I propose to lead the project on the frontend and explain how to use some tools like "Mailchimp" managing, styling his campaign easily and efficiently. 
 
 
 
