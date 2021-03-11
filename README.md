@@ -3,8 +3,8 @@
 
 <a href="#">
   <img
-    height="80"
-    width="80"
+    height="60"
+    width="240"
     alt="dbsh-logo"
     src="app/assets/img/icons/logo-dbsh--light.svg"
   />
