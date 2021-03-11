@@ -1,3 +1,32 @@
+<div align="center">
+<h1>D.B.S.H Template</h1>
+
+<a href="#">
+  <img
+    height="80"
+    width="80"
+    alt="dbsh-logo"
+    src="app/assets/img/icons/logo-dsbsh--light.svg"
+  />
+</a>
+
+<p>A simple page's template introducing a personal trainer, could be useful to any professional activity, introducing a local professional having a window open to the web. This is a single page application but can easily be upgraded to multi-pages, with more functionalities...</p>
+
+<br />
+
+<a href="#">
+  <img
+    height="634"
+    width="928"
+    alt="screen of dbsh single page"
+    src="app/assets/img/screen-dbsh.png"
+  />
+</a>
+
+<br />
+
+</div>
+
 # Getting Started
 
 The D.B.S.H is a frontend project, built in HTML5/CSS3 and Native Javascript, this simplified template was made on the purpose to practice and develop some professionals code in a professionnal mode and environment. 
