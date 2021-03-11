@@ -6,7 +6,7 @@
     height="80"
     width="80"
     alt="dbsh-logo"
-    src="app/assets/img/icons/logo-dsbsh--light.svg"
+    src="app/assets/img/icons/logo-dbsh--light.svg"
   />
 </a>
 
