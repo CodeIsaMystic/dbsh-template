@@ -23,8 +23,6 @@
 </a>
 
 <br />
-
-<h1>D.B.S.H Template</h1>
 </div>
 
 # Getting Started
