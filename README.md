@@ -1,5 +1,4 @@
 <div align="center">
-<h1>D.B.S.H Template</h1>
 
 <a href="#">
   <img
@@ -25,6 +24,7 @@
 
 <br />
 
+<h1>D.B.S.H Template</h1>
 </div>
 
 # Getting Started
