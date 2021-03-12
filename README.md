@@ -18,7 +18,7 @@
     height="634"
     width="928"
     alt="screen of dbsh single page"
-    src="app/assets/img/screen-dbsh.png"
+    src="app/project-mockup/screen-dbsh.png"
   />
 </a>
 
@@ -32,6 +32,24 @@ This project was thought with a potential client who does not needed so much app
 
 
 [Visit the website here](https://dbsh69.netlify.app/)
+
+
+
+## Style Guide
+
+<div align="center">
+
+  <img
+    height="1591"
+    width="680"
+    alt="image content exposing the main styles guide"
+    src="app/project-mockup/dbsh-style-guide.png"
+  />
+
+<br />
+
+</div>
+
 
 ## Dependencies
 
