@@ -56,14 +56,12 @@
 
 
     &:focus {
-      box-shadow: 0 1rem 2rem rgba(0, 0, 0, .1);
-      border-bottom: 3px solid $mainSemiDarkOrange;
+      outline: 1px solid $mainOrange;
     }
 
     /*  =When focused & invalid text  */
     &:focus:invalid {
-      border: none;
-      border-bottom: 3px solid $mainOrange;
+      outline: 1px solid $mainSemiDarkOrange;
     }
 
     /*   =Become darker when typing (chrome & safari) */
