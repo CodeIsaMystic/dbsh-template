@@ -52,12 +52,6 @@ class Modal {
           <form class="form" id="form" action="#">
 
             <div class="form__group">
-              <input class="form__input" type="text" name="firstname" id="firstname" placeholder="Votre prénom" required>
-              <label class="form__label" for="firstname">Prénom</label>
-            </div>
-
-
-            <div class="form__group">
               <input class="form__input" type="text" name="lastname" id="lastname" placeholder="Votre nom" required>
               <label class="form__label" for="lastname">Nom</label>
             </div>
@@ -66,39 +60,6 @@ class Modal {
             <div class="form__group">
               <input class="form__input" type="email" name="email" id="email" placeholder="Votre email" required>
               <label class="form__label" for="email">Email</label>
-            </div>
-
-
-            <div class="form__group">
-              <input class="form__input" type="tel" name="phone" id="phone" placeholder="Votre téléphone * (optionnel)">
-              <label class="form__label" for="phone">Téléphone</label>
-            </div>
-
-
-            <!--  Checkbox group  -->
-            <div>
-              <div class="form__checkbox-group">
-                <input class="form__checkbox-input" type="checkbox" name="subject" id="coaching">
-                <label class="form__checkbox-label" for="coaching">
-                  <span class="form__checkbox-button"></span>
-                  Coaching Personnel</label>
-              </div>
-
-
-              <div class="form__checkbox-group">
-                <input class="form__checkbox-input" type="checkbox" name="subject" id="partnership">
-                <label class="form__checkbox-label" for="partnership">
-                  <span class="form__checkbox-button"></span>
-                  Partenariat / Collaboration</label>
-              </div>
-
-
-              <div class="form__checkbox-group">
-                <input class="form__checkbox-input" type="checkbox" name="subject" id="physical">
-                <label class="form__checkbox-label" for="physical">
-                  <span class="form__checkbox-button"></span>
-                  Préparation Physique</label>
-              </div>
             </div>
   
             <button class="form-btn btn btn--large btn--orange" type="submit" id="submit">
