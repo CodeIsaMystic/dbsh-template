@@ -52,13 +52,13 @@ class Modal {
           <form class="form" id="form" action="#">
 
             <div class="form__group">
-              <input class="form__input" type="text" name="lastname" id="lastname" placeholder="Votre nom" required>
+              <input class="form__input" type="text" name="lastname" id="lastname" placeholder="Votre nom" aria-required="true" required>
               <label class="form__label" for="lastname">Nom</label>
             </div>
 
 
             <div class="form__group">
-              <input class="form__input" type="email" name="email" id="email" placeholder="Votre email" required>
+              <input class="form__input" type="email" name="email" id="email" placeholder="Votre email" aria-required="true" required>
               <label class="form__label" for="email">Email</label>
             </div>
   
