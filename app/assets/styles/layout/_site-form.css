@@ -3,7 +3,6 @@
   width: 100%;
   padding: 2.5rem 0;
   margin: 0 auto;
-  box-shadow:  3px 3px 5px rgba(0, 0, 0, .3);
 
   @mixin atSmall {    
     padding: 4.5rem 2rem 0;
@@ -40,7 +39,7 @@
     font-family: inherit;
     color: inherit;
     border-radius: 2px;
-    background-color: rgba($mainTextColor, 1);
+    background-color: rgba($lightColor, 1);
     border: none;
     border-bottom: 2px solid transparent;
     transition: all .3s;
@@ -56,17 +55,17 @@
 
 
     &:focus {
-      outline: 1px solid $mainOrange;
+      outline: 1px solid $mainAccent;
     }
 
     /*  =When focused & invalid text  */
     &:focus:invalid {
-      outline: 1px solid $mainSemiDarkOrange;
+      outline: 1px solid $mainAccentDark;
     }
 
     /*   =Become darker when typing (chrome & safari) */
     &::-webkit-input-placeholder {
-      color: $mainSemiDarkBlue;
+      color: $darkColor;
     } 
 
     /*   =Trying to custom textarea placeholder */
@@ -76,7 +75,7 @@
     &:-ms-input-placeholder,
     &::placeholder {
       opacity: 1;
-      color: $mainSemiDarkBlue;
+      color: $darkColor;
     }
   }
 

@@ -38,6 +38,8 @@
       left: 0;
       top: 10px;
     }
+
+    & path { fill: $mainAccent }
   }
 
   &__title {

@@ -1,33 +1,46 @@
 /**********************
-LIGHT THEME COLORS        
+THEME COLORS        
 **********************/
-$mainOrange: #F9930E;
-$mainSemiDarkOrange: #563000;
-$mainSemiDarkBlue: #09053C;
-$mainDarkBlue: #03011C;
-$mainLightGray: #F6F6FF;
-$mainTextColor: #FFFFFF;
+$mainAccent:            #0AB34E;
+$mainAccentLight:       #7CE3A5;
+$mainAccentLighten:     #A9EEC5;  
 
+$mainAccentDark:        #098A3D;
+
+
+$lightColor:            #F8F8F8; 
+$darkColor:             #0F0F0F; 
+
+
+$darkGradient: linear-gradient(to bottom, rgba(15, 15, 15, .6) 20%, rgba(15, 15, 15, 1) 100%, rgba(15, 15, 15, .5) 20%);
+$lightGradient: linear-gradient(180deg, rgba(124, 227, 165, .75) 22.8%, rgba(124, 227, 165, .85) 50.3%, rgba(124, 227, 165, .95) 84.6%);
 
 
 
 /*********************************************
 **********************************************
-ADDITIONAL THEME COLORS
+MORE THEME'S COLORS
 **********************************************
-*********************************************/
+*********************************************
+*************************
+#7E4802
+#ffcc89
+#563000
 
 
-/*
-$mainBlue: #2B20AD;
-$mainSemiLightBlue: #8F89E1;
-$mainLightBlue: #B6B2ED;
+#F8F8F8
+#03011c
 
-$mainSemiLightOrange: #FFCD8B;
-$mainLightOrange: #FFDFB5;
-$mainDarkOrange: #291700;
 
-$sucessGreen: #0AB34E;
-$sucessLightGreen:#A9EEC5;  
-$sucessSemiLightGreen: #7CE3A5;
-*/
+linear-gradient(to bottom, rgba(3, 1, 28, .6) 20%, rgba(3, 1, 28, 1) 100%, rgba(3, 1, 28, .5) 20%);
+linear-gradient(180deg, rgba(235,235,255, .55) 22.8%, rgba(246,246,255, .85) 50.3%, rgba(255, 255, 255, .95) 84.6%);
+*************************
+*************************
+#37e3ec
+#affbff
+#b8fbff
+#2aa7ae
+
+#F8F8F8
+#0F0F0F
+************************/

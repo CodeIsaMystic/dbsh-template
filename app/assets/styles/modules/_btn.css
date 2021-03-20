@@ -1,6 +1,6 @@
 .btn {
   display: inline-block;
-  color: $mainTextColor;
+  color: $lightColor;
   border-radius: 2px;
   transition: all 0.6s ease-in-out;
 
@@ -8,54 +8,44 @@
     padding: .8rem 1.3rem;
     font-size: 1.1rem;
 
-    @mixin atSmall {    
-      font-size: 1.5rem;
-    }
+    @mixin atSmall {  font-size: 1.5rem;  }
   }
 
   &--large {
     padding: 1rem 1.3rem;
     font-size: 1.3rem;
     
-    @mixin atXSmall {
-      padding: 1.3rem 1.6rem;
-    }
+    @mixin atXSmall {  padding: 1.3rem 1.6rem;  }
 
     @mixin atSmall {
       padding: 1.7rem 3rem;
       font-size: 1.7rem;
     }
 
-    @mixin atMedium {
-      font-size: 2rem;
-    }
+    @mixin atMedium {  font-size: 2rem;  }
   }
 
+  
+  &--white {
+    background-color: $lightColor;
+    color: $darkColor;
+    
+    &:hover {  background-color: rgba($lightColor, .85);  }
+    
+  }
 
-  &--blue {
-    background-color: $mainDarkBlue;
+  &--dark {
+    background-color: $darkColor;
     
     &:hover {
-      background-color: $mainLightGray;
-      color: $mainDarkBlue;
+      background-color: $mainAccent;
+      color: $darkColor;
     }
   }
-
-  &--white {
-    background-color: $mainTextColor;
-    color: $mainDarkBlue;
-
-    &:hover {
-      background-color: rgba($mainTextColor, .45);
-    }
-
-  }
-
-  &--orange {
-    background-color: $mainOrange;
-
-    &:hover {
-      background-color: rgba($mainOrange, .7);
-    }
+  
+  &--accent {
+    background-color: $mainAccent;
+    
+    &:hover {  background-color: rgba($mainAccent, .7);  }
   }
 } 

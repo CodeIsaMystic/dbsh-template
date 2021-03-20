@@ -1,14 +1,7 @@
 .row {
 
   @mixin clearfix;
-/*
-  &--gutters {
-    margin-right: -6.5rem;
-  }*/
-/*
-  &--gutters-large {
-    margin-right: -10rem;
-  }*/
+
 
   @mixin atLarge {
     &--gutters-small>div:not(:first-child) {
@@ -18,15 +11,7 @@
       padding-right: 2.25rem;
     }
   }
-/*
-  @mixin atLarge {
-    &--gutters>article:not(:last-child),
-    &--gutters>div:not(:last-child),
-    &--gutters>section:not(:last-child) {
-      padding-right: 9.75rem;
-    }
-  }
-  */
+
 
   @mixin atMedium {
     &--gutters-large>section:not(:last-child),

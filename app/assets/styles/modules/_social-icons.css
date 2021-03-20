@@ -17,17 +17,10 @@
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
-      fill: $mainTextColor;
+      fill: $lightColor;
       transition: fill .3s;
 
-      &:hover {
-        fill: $mainOrange;
-      }
-    }
-    &--dark {
-      & svg {
-        fill: $mainSemiDarkOrange;
-      }
+      &:hover {  fill: $mainAccent;  }
     }
   }
 }

@@ -10,7 +10,8 @@
   transform: scale(1.2);
   transition: all .3s ease-out;
   z-index: 5;
-  background: $mainLightGray;
+  background-color: $darkColor;
+  color: $lightColor;
   visibility: hidden;
   opacity: 0;
 
@@ -42,10 +43,8 @@
     transform: scaleX(1.2);
     transform-origin: 100% 0;
     cursor: pointer;
-    color: $mainDarkBlue;
+    color: $lightColor;
 
-    &:hover {
-      color: $mainOrange;
-    }
+    &:hover {  color: $mainAccentDark;  }
   }
 }

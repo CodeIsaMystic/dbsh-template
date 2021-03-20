@@ -2,17 +2,11 @@
   display: block;
   margin: 0 auto;
   text-align: center;
-  background-color: $mainLightGray;
-  color: $mainDarkBlue;
+  background-color: $darkColor;
+  color: $lightColor;
 
-  @mixin atMedium {
-    @mixin flexColumn;
-  }
+  @mixin atMedium {  @mixin flexColumn;  }
 
-  &__text {
-    font-weight: 300;
-  }
-  &__icons {
-    @mixin flexRowCenter;
-  }
+  &__text {  font-weight: 300;  }
+  &__icons {  @mixin flexRowCenter;  }
 }

@@ -62,7 +62,7 @@ class Modal {
               <label class="form__label" for="email">Email</label>
             </div>
   
-            <button class="form-btn btn btn--large btn--orange" type="submit" id="submit">
+            <button class="form-btn btn btn--large btn--accent" type="submit" id="submit">
               C'est Parti  &rarr;
             </button>
   

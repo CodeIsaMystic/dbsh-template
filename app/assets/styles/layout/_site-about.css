@@ -4,17 +4,13 @@
     .img-container {    
       margin: 0 auto 4.5rem;
 
-      @mixin atMedium {
-        margin: 0 auto 7rem;
-      }
+      @mixin atMedium {  margin: 0 auto 7rem;  }
     }
 
     & div .img-container {    
       margin: 0 auto 4.5rem;
 
-      @mixin atMedium {
-        margin: 0 auto;
-      }
+      @mixin atMedium {  margin: 0 auto;  }
     }
 
   }
@@ -22,9 +18,7 @@
   & h3 {
     width: 85%;
 
-    @mixin atLarge {
-      width: 95%;
-    }
+    @mixin atLarge {  width: 95%;  }
   }
 
   & p {
@@ -33,12 +27,7 @@
     padding-bottom: 1.5rem;
 
 
-    @mixin atSmall {
-      width: 95%;
-    }
-
-    @mixin atLarge {
-      max-width: 90rem
-    }
+    @mixin atSmall {  width: 95%;  }
+    @mixin atLarge {  max-width: 90rem  }
   }
 }

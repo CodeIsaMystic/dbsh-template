@@ -1,6 +1,6 @@
 *::selection {
-  background-color: $mainSemiDarkBlue;
-  color: $mainTextColor;
+  background-color: $darkColor;
+  color: $lightColor;
 }
 
 body {
@@ -9,19 +9,12 @@ body {
     
     font-size: 1.4rem;
     line-height: 1.3;
-    color: $mainSemiDarkBlue;
+    color: $darkColor;
 
-    strong {
-      font-weight: 500;
-    }
+    strong {  font-weight: 500;  }
 
-    @mixin atXSmall {
-      font-size: 1.6rem;
-    }
-
-    @mixin atSmall {
-      font-size: 1.8rem;
-    }
+    @mixin atXSmall {  font-size: 1.6rem;  }
+    @mixin atSmall {  font-size: 1.8rem;  }
 }
 
 p {
@@ -31,14 +24,21 @@ p {
 
 p > strong {
   font-weight: 500;
-  color: $mainSemiDarkBlue;
+  color: $darkColor;
 }
 
 p  strong > a {
-  color: $mainSemiDarkOrange;
+  color: $darkColor;
   transition: color .4s; 
 }
 
-p > strong:hover a {
-    color: $mainOrange;
+p > strong:hover a {  color: $mainAccent; }
+
+
+/*  NEED TO CREATE TYPO UTILITY  */
+.typo-italic {
+  font-style: italic;
+  color: $darkColor;
+  font-weight: 400;
+  font-size: 1.4rem;
 }
