@@ -1,37 +1,31 @@
-/* =Heading primary   */
-.heading-primary {
+/* =Headings   */
+.heading {
+  text-align: center;
+  
+  /* =Heading primary   */
+  &-primary {
   width: 100%;
   margin: 0 auto 4.5rem;
   font-size: 3rem;
   font-weight: 500;
-  text-align: center;
-  color: $darkColor;
-
   
-  @mixin atXSmall {
-    font-size: 3.5rem;
-  }
-
-  @mixin atSmall {
-    font-size: 4rem;
-  }
-
-  @mixin atMedium {
-    margin: 0 auto 7rem;
-  }
-
+  
+  @mixin atXSmall {  font-size: 3.5rem;  }
+  @mixin atSmall  {  font-size: 4rem;  }
+  @mixin atMedium {  margin: 0 auto 7rem;  }
+  
   &--modal {
     margin: 0 auto 2rem;
     font-size: 2.2rem;
   }
-
-
+  
+  
   & svg {
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: .2rem;
-
+  
     @mixin atSmall {
       display: inline-block;
       position: relative;
@@ -40,52 +34,44 @@
       margin-left: 0;
       margin-bottom: .5rem;
     }
-
-    & path { fill: $mainAccent; }
+  
+    & path { fill: $mainAccentDark; }
   } 
-}
-
-/* =Heading  Secondary */
-.heading-secondary {
+  }
+  
+  /* =Heading  Secondary */
+  &-secondary {
   width: 100%;
   margin: 0 auto 1.2rem;
   font-size: 2.2rem;
   font-weight: 300;
   letter-spacing: -2px;
   word-spacing: 1px;
-  text-align: center;
-  color: $darkColor;
-
-  @mixin atXSmall {
-    font-size: 2.6rem;
+  
+  @mixin atXSmall {  font-size: 2.6rem;  }
+  @mixin atSmall  {  font-size: 3rem;  }
+  }
+  
+  
+  /* =Heading  Tertiary */
+  &-tertiary {
+    width: 95%;  
+    margin: 0 auto 4.5rem;
+    font-size: 1.6rem;
+    font-weight: 300;  
+    letter-spacing: 1px;
+    
+    @mixin atXSmall {  font-size: 2.1rem;  }
+    
+    @mixin atMedium {
+      margin: 0 auto 7rem;
+      font-size: 2.5rem;
+    }
+  
+    & strong {  font-weight: 500;  }
   }
 
-  @mixin atSmall {
-    font-size: 3rem;
-  }
-}
-
-
-/* =Heading  Tertiary */
-.heading-tertiary {
-  width: 95%;  
-  margin: 0 auto 4.5rem;
-  font-size: 1.6rem;
-  font-weight: 300;  
-  text-align: center;
-  letter-spacing: 1px;
-  color: $darkColor;
-
-  @mixin atXSmall {
-    font-size: 2.1rem;
-  }
-
-  @mixin atMedium {
-    margin: 0 auto 7rem;
-    font-size: 2.5rem;
-  }
-
-  strong {
-    font-weight: 500;
-  }
+  /* =Heading colors   */
+  &-light { color: $lightColor; }
+  &-dark  { color: $darkColor;  }
 }
