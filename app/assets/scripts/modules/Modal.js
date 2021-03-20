@@ -35,17 +35,17 @@ class Modal {
       <div class="modal__inner">
 
         <!-- Modal title -->
-        <h2 class="heading-primary heading-primary--modal">
+        <h2 class="heading heading-primary heading-primary--modal heading-light">
           Commences Dès Aujourd'hui !
         </h2>
 
         <div class="wrapper">
 
-          <!-- P description -->
-          <p>
+          <!-- heading secondary -->
+          <h3 class="heading heading-secondary heading-light" tabindex="0">
             Seulement 2 minutes pour remplir ce formulaire et tu auras <strong>ton premier conseil coach sport santé
               entièrement gratuit</strong>.
-          </p>
+          </h3>
           
 
           <!-- Form section -->
