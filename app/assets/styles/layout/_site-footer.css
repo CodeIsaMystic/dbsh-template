@@ -2,8 +2,8 @@
   display: block;
   margin: 0 auto;
   text-align: center;
-  background-color: $darkColor;
-  color: $lightColor;
+  background-color: $lightColor;
+  color: $darkColor;
 
   @mixin atMedium {  @mixin flexColumn;  }
 

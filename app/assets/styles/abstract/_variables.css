@@ -1,6 +1,30 @@
 /**********************
 THEME COLORS        
 **********************/
+
+$lightColor:         #F8F8F8; 
+$lightGradient:  linear-gradient(180deg, rgba(235,235,255, .85) 22.8%, rgba(246,246,255, .65) 50.3%, rgba(255, 255, 255, .20) 84.6%);
+
+
+$darkColor:         #03011c;
+$darkGradient: linear-gradient(to bottom, rgba(3, 1, 28, .6) 20%, rgba(3, 1, 28, .85) 100%, rgba(3, 1, 28, .25) 20%);
+
+/*******************************
+$darkColor:          #0F0F0F; 
+$darkGradient: linear-gradient(to bottom, rgba(15, 15, 15, .6) 20%, rgba(15, 15, 15, 1) 100%, rgba(15, 15, 15, .5) 20%);
+*******************************/
+
+
+$mainAccent:         #7E4802;
+$mainAccentLight:    #ffcc89;
+$mainAccentDark:     #563000;
+
+
+/*********************************************
+MORE THEME'S COLORS
+**********************************************
+  Green theme
+*************************
 $mainAccent:            #0AB34E;
 $mainAccentLight:       #7CE3A5;
 $mainAccentLighten:     #A9EEC5;  
@@ -8,42 +32,20 @@ $mainAccentLighten:     #A9EEC5;
 $mainAccentDark:        #098A3D;
 
 
-$lightColor:            #F8F8F8; 
-$darkColor:             #0F0F0F; 
-
-
-$darkGradient: linear-gradient(to bottom, rgba(15, 15, 15, .6) 20%, rgba(15, 15, 15, 1) 100%, rgba(15, 15, 15, .5) 20%);
 $lightGradient: linear-gradient(180deg, rgba(124, 227, 165, .75) 22.8%, rgba(124, 227, 165, .85) 50.3%, rgba(124, 227, 165, .95) 84.6%);
 
 
-
-/*********************************************
-**********************************************
-MORE THEME'S COLORS
-**********************************************
-*********************************************
 *************************
-#7E4802
-#ffcc89
-#563000
-
-
-#F8F8F8
-#03011c
-
-
-linear-gradient(to bottom, rgba(3, 1, 28, .6) 20%, rgba(3, 1, 28, 1) 100%, rgba(3, 1, 28, .5) 20%);
-linear-gradient(180deg, rgba(235,235,255, .55) 22.8%, rgba(246,246,255, .85) 50.3%, rgba(255, 255, 255, .95) 84.6%);
+  Blue Theme
 *************************
-*************************
-#46A1C9
-#6BB9DB
-#9CD4EC
-#0772A0
+$mainAccent:            #46a1c9;
+$mainAccentLight:       #6BB9DB;
+$mainAccentDark:        #0772A0;
 
-#4A4A49
-#3D3D3C
 
-#F8F8F8
-#0F0F0F
-************************/
+$lightGradient: linear-gradient(180deg, rgba(70, 161, 201, .75) 22.8%, rgba(70, 161, 201, .85) 50.3%, rgba(70, 161, 201, .95) 84.6%);
+**************/
+
+
+
+

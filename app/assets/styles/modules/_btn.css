@@ -34,18 +34,16 @@
     
   }
 
+  
   &--dark {
     background-color: $darkColor;
     
-    &:hover {
-      background-color: $mainAccent;
-      color: $darkColor;
-    }
+    &:hover {  background-color: $mainAccent;  }
   }
   
   &--accent {
-    background-color: $mainAccent;
+    background-color: rgba($mainAccent, .85);
     
-    &:hover {  background-color: rgba($mainAccent, .7);  }
+    &:hover {  background-color: $mainAccent;  }
   }
 } 
