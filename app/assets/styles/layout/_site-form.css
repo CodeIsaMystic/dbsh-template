@@ -4,13 +4,8 @@
   padding: 2.5rem 0;
   margin: 0 auto;
 
-  @mixin atSmall {    
-    padding: 4.5rem 2rem 0;
-  }
-
-  @mixin atMedium {
-    padding: 7rem 2rem 0;
-  }
+  @mixin atSmall  {  padding: 4.5rem 2rem 0;  }
+  @mixin atMedium {  padding: 7rem 2rem 0;  }
 }
 
 .form {
@@ -23,9 +18,7 @@
     width: 100%;
     margin: 0 auto;
 
-    @mixin atSmall {
-      width: 65%;
-    }
+    @mixin atSmall {  width: 65%;  }
   }
 
 
@@ -44,29 +37,20 @@
     border-bottom: 2px solid transparent;
     transition: all .3s;
 
-    @mixin atSmall {
-      width: 100%;
-    }
-
+    @mixin atSmall {  width: 100%;  }
     @mixin atMedium {
       padding: 1.3rem 2rem;
       font-size: 1.5rem;
     }
 
 
-    &:focus {
-      outline: 1px solid $mainAccent;
-    }
+    &:focus {  outline: 1px solid $mainAccent;  }
 
     /*  =When focused & invalid text  */
-    &:focus:invalid {
-      outline: 1px solid $mainAccentDark;
-    }
+    &:focus:invalid {  outline: 1px solid $mainAccentDark;  }
 
     /*   =Become darker when typing (chrome & safari) */
-    &::-webkit-input-placeholder {
-      color: $darkColor;
-    } 
+    &::-webkit-input-placeholder {  color: $darkColor;  } 
 
     /*   =Trying to custom textarea placeholder */
     &::-webkit-input-placeholder,
@@ -81,8 +65,7 @@
 
   &__label {
     display: block;
-    margin-left: 3rem;
-    margin-top: .3rem;
+    margin: 0.8rem 0 .8rem .3rem;
     font-size: 1rem;
     font-weight: 700;
     text-align: left;
@@ -106,7 +89,5 @@
     cursor: pointer;    
     border: none;
     
-    @mixin atSmall {    
-      width: 30%;
-    }
+    @mixin atSmall {  width: 30%;  }
   }
