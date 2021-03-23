@@ -1,9 +1,9 @@
 /*    =Utilities   */
 .u-page-section {
-  padding: 4.5rem 0;
+  padding: 12rem 0;
 
   @mixin atMedium {
-    padding: 7rem 0;
+    padding: 17rem 0;
   }
 }
 
