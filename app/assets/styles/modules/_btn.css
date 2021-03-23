@@ -27,11 +27,10 @@
 
   
   &--white {
-    background-color: $lightColor;
+    background-color: rgba($lightColor, .85);
     color: $darkColor;
     
-    &:hover {  background-color: rgba($lightColor, .85);  }
-    
+    &:hover {  background-color: $lightColor;  } 
   }
 
   
