@@ -1,0 +1,7 @@
+.site-services {
+  & h4 {
+    padding-bottom: 12rem;
+
+    @mixin atMedium { padding-bottom: 17rem; }
+  }
+}

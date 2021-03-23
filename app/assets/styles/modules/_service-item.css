@@ -6,17 +6,13 @@
   margin: 0 auto;
 
 
-  @mixin atSmall {
-    height: 28rem;
-  }
+  @mixin atSmall {  height: 28rem;  }
 
 
   @mixin atMedium {
     height: 32rem;
     
-    &:first-of-type {
-      margin-bottom: 3rem;
-    }
+    &:first-of-type {  margin-bottom: 3rem;  }
   }
 
   @mixin atLarge {

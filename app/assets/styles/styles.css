@@ -15,7 +15,8 @@
 @import 'layout/_site-header';
 @import 'layout/_site-hero';
 @import 'layout/_site-about';
-@import 'layout/_testimonials';
+@import 'layout/_site-services';
+@import 'layout/_site-testimonials';
 @import 'layout/_site-form';
 @import 'layout/_site-footer';
 
@@ -25,6 +26,7 @@
 @import "modules/_social-icons";
 @import 'modules/_headings';
 @import 'modules/_service-item';
+@import 'modules/_testimonial-cards';
 
 
 @import 'state/_reveal-item';

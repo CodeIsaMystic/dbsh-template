@@ -1,5 +1,11 @@
 .site-form {
   background-color: rgba($lightColor, .65);
+
+  & h3 { 
+    padding-bottom: 7.5rem;
+  
+  @mixin atMedium { padding-bottom: 12rem; }
+  }
 }
 
 

@@ -1,11 +1,15 @@
 .site-footer {
   display: block;
   margin: 0 auto;
+  padding: 7.5rem 0;
   text-align: center;
   background-color: $lightColor;
   color: $darkColor;
 
-  @mixin atMedium {  @mixin flexColumn;  }
+  @mixin atMedium {  
+    padding: 12rem 0;
+
+    @mixin flexColumn;  }
 
   &__text {  font-weight: 300;  }
   &__icons {  @mixin flexRowCenter;  }
