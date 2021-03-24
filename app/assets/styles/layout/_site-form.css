@@ -1,5 +1,5 @@
 .site-form {
-  background-color: rgba($lightColor, .65);
+  background-color: rgba($lightColor, .25);
 
   & h3 { 
     padding-bottom: 7.5rem;
@@ -25,7 +25,7 @@
   text-align: center;
 
   &__group {
-    width: 100%;
+    width: 80%;
     margin: 0 auto;
 
     @mixin atSmall {  width: 65%;  }
@@ -75,10 +75,13 @@
 
   &__label {
     display: block;
-    margin: 0.8rem 0 .8rem .3rem;
+    width: 90%;
+    padding: 0.8rem 1rem;
+    margin: 0 auto;
     font-size: 1rem;
     font-weight: 700;
     text-align: left;
+    border: none;
     transition: all .3s;
   }
 

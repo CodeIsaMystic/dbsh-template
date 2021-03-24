@@ -31,3 +31,7 @@ ul {
 li {
   list-style: none;
 }
+
+input[type='text'], input[type='email'] {
+  font-size: 16px;
+}
