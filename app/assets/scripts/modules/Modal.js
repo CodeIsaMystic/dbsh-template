@@ -31,20 +31,26 @@ class Modal {
 
   injectHTML() {
     document.body.insertAdjacentHTML('beforeend', `
-    <div class="modal">
+    <div  class="modal" 
+          role="dialog" 
+          aria-labelledby="dialog-title" 
+          aria-describedby="dialog-desc">
       <div class="modal__inner">
 
         <!-- Modal title -->
-        <h2 class="heading heading-primary heading-primary--modal heading-light">
+        <h2   class="heading heading-primary heading-primary--modal heading-dark" 
+              id="dialog-title" 
+              tabindex="0">
           Commences Dès Aujourd'hui !
         </h2>
 
         <div class="wrapper">
 
           <!-- heading secondary -->
-          <h3 class="heading heading-secondary heading-light" tabindex="0">
-            Seulement 2 minutes pour remplir ce formulaire et tu auras <strong>ton premier conseil coach sport santé
-              entièrement gratuit</strong>.
+          <h3   class="heading heading-secondary heading-dark" 
+                id="dialog-desc" 
+                tabindex="0">
+            Seulement 2 minutes pour remplir ce formulaire ...
           </h3>
           
 
@@ -52,13 +58,13 @@ class Modal {
           <form class="form" id="form" action="#">
 
             <div class="form__group">
-              <input class="form__input" type="text" name="lastname" id="lastname" placeholder="Votre nom" aria-required="true" required>
+              <input class="form__input" type="text" name="lastname" id="lastname" placeholder="Votre nom" tabindex="0" aria-required="true" required>
               <label class="form__label" for="lastname">Nom</label>
             </div>
 
 
             <div class="form__group">
-              <input class="form__input" type="email" name="email" id="email" placeholder="Votre email" aria-required="true" required>
+              <input class="form__input" type="email" name="email" id="email" placeholder="Votre email" tabindex="0" aria-required="true" required>
               <label class="form__label" for="email">Email</label>
             </div>
   
