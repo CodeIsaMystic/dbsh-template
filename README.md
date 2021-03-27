@@ -1,5 +1,7 @@
 <div align="center">
 
+<h1>D.B.S.H Template</h1>
+
 <a href="#">
   <img
     height="60"
@@ -24,8 +26,6 @@
 
 <br />
 </div>
-
-# D.B.S.H Template
 
 ## Getting Started
 
