@@ -25,7 +25,9 @@
 <br />
 </div>
 
-# Getting Started
+# D.B.S.H Template
+
+## Getting Started
 
 The D.B.S.H is a frontend project, built in HTML5/CSS3 and Native Javascript, this simplified template was made on the purpose to practice and develop some professionals code in a professionnal mode and environment. 
 This project was thought with a potential client who does not needed so much applications for his website but after all a simple window to the web, just like a portfolio. Getting some more contacts, to store on a database, this frontend theme could be linked to a combo "PHP/SQL" backend but maybe, more efficiently it could be handled with javascript in a JAM Stack app with node, express and a database.
@@ -34,8 +36,27 @@ This project was thought with a potential client who does not needed so much app
 [Visit the website here](https://dbsh69.netlify.app/)
 
 
+### Developing
 
-## Style Guide
+Fork the repository using [this](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo) guide, then clone it locally.
+
+```shell
+git clone https://github.com/CodeIsaMystic/DB-sportsandevents
+cd name-of-your-app-folder
+npm install
+```
+
+You can now run the frontend on your `localhost`.
+
+```shell
+npm run dev
+```
+
+
+
+## Design & CSS
+
+### Style Guide
 
 <div align="center">
 
@@ -51,19 +72,19 @@ This project was thought with a potential client who does not needed so much app
 </div>
 
 
-## B.E.M Methodology and Atomic Design
+### B.E.M Methodology and Atomic Design
 
 The B.E.M Methodology, the S.M.A.CSS files architecture and some notions of moder web design was used here on this project. It was a nice way to learn and practice those techniques with this project not so large...
 
 
 
-## Dependencies, Plugins & Loaders
+### Dependencies, Plugins & Loaders
 
-### Webpack, Babel, PostCSS...
+#### Webpack, Babel, PostCSS...
 
 I used on this project some of the most populars node packages to my workflow, you can easily have a look on package.json file. All the configuration, settings and scripts are defined on the webpack.config.js
 
-#### Webpack: 
+##### Webpack: 
   A static module bundler for modern JavaScript applications. Processing your application, it internally 
   builds a dependency graph which maps every module your project needs and generates one or more bundles.
 
@@ -92,7 +113,7 @@ I used on this project some of the most populars node packages to my workflow, y
 
 
 
-#### Babel:
+##### Babel:
   Babel is a toolchain that is mainly used to convert ECMAScript 2015+ code into a backwards compatible
   version of JavaScript in current and older browsers or environments. 
 
@@ -105,7 +126,7 @@ I used on this project some of the most populars node packages to my workflow, y
 
 
 
-#### PostCSS:
+##### PostCSS:
   A tool for transforming CSS with Javascript.
     
     . postcss-loader : loader to process Css using postCSS.
@@ -123,7 +144,7 @@ I used on this project some of the most populars node packages to my workflow, y
     . autoprefixer : A plugin to parse CSS and add vendor prefixes to CSS rules using values from Can I Use. Write your CSS rules without vendor prefixes...
 
 
-### Additionals plugins & loader
+#### Additionals plugins & loader
   1. Mini CSS extract plugin:
 
     Extracts CSS into separate files. It creates a CSS file per JS file which contains CSS. It supports On-Demand-Loading of CSS and SourceMaps.
@@ -153,7 +174,7 @@ I used on this project some of the most populars node packages to my workflow, y
 
 
 
-## Javascript
+### Javascript
 
   1. The Object Oriented Programming (OOP) paradigm:
 
@@ -208,21 +229,3 @@ I used on this project some of the most populars node packages to my workflow, y
      des options pour indiquer si la fonction doit être appelée sur le bord avant et / ou arrière du 
      délai d'attente. La fonction est appelée avec les derniers arguments fournis à la fonction étranglée. 
      Les appels suivants à la fonction limitée renvoient le résultat du dernier appel de fonction.)
-
-
-
-## Developing
-
-Fork the repository using [this](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo) guide, then clone it locally.
-
-```shell
-git clone https://github.com/CodeIsaMystic/DB-sportsandevents
-cd name-of-your-app-folder
-npm install
-```
-
-You can now run the frontend on your `localhost`.
-
-```shell
-npm run dev
-```
