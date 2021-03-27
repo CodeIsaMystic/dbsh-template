@@ -64,7 +64,9 @@ The B.E.M Methodology, the S.M.A.CSS files architecture and some notions of mode
 I used on this project some of the most populars node packages to my workflow, you can easily have a look on package.json file. All the configuration, settings and scripts are defined on the webpack.config.js
 
 #### Webpack: 
-    A static module bundler for modern JavaScript applications. Processing your application, it internally builds a dependency graph which maps every module your project needs and generates one or more bundles.
+    A static module bundler for modern JavaScript applications. Processing your application, it internally 
+    builds a dependency graph which maps every module your project needs and generates one or more bundles.
+
 
     Core Concepts:
       . Entry
@@ -74,16 +76,16 @@ I used on this project some of the most populars node packages to my workflow, y
       . Mode
       . Browser Compatibility
 
-  > webpack-cli
+  . webpack-cli
     The command line interface.
-  > webpack-dev-server
+  . webpack-dev-server
     Used to quickly develop an application. See the development guide to get started.
-  > html-webpack-plugin
+  . html-webpack-plugin
     That simplifies creation of HTML files to serve your webpack bundles. This is especially useful 
     for webpack bundles that include a hash in the filename which changes every compilation. You can 
     either let the plugin generate an HTML file for you, supply your own template using lodash 
     templates or use your own loader.
-  > clean-webpack-plugin
+  . clean-webpack-plugin
     This plugin will remove all files inside webpack's output.path directory, as 
     well as all unused webpack assets after every successful rebuild.
 
@@ -91,12 +93,12 @@ I used on this project some of the most populars node packages to my workflow, y
     Babel is a toolchain that is mainly used to convert ECMAScript 2015+ code into a backwards compatible
     version of JavaScript in current and older browsers or environments. 
 
-  > @babel/core : 
+  . @babel/core : 
     Babel compiler core.
-  > @babel/preset-env : 
+  . @babel/preset-env : 
     A smart preset that allows you to use the latest JavaScript without needing to micromanage which syntax transforms (and optionally, browser polyfills) are needed by your target environment(s). 
     This both makes your life easier and JavaScript bundles smaller!
-  > babel-loader : 
+  . babel-loader : 
     This package allows transpiling JavaScript files using Babel and webpack.
 
 
@@ -104,19 +106,19 @@ I used on this project some of the most populars node packages to my workflow, y
 #### PostCSS:
   A tool for transforming CSS with Javascript.
     
-  > postcss-loader : 
+  . postcss-loader : 
     loader to process Css using postCSS.
-  > postcss-mixins : 
+  . postcss-mixins : 
     plugin for mixins.
-  > postcss-nested : 
+  . postcss-nested : 
     plugin to unwrap nested rules like how Sass does it.
-  > postcss-simple-vars : 
+  . postcss-simple-vars : 
     plugin for Sass-like variables.
-  > postcss-hexrgba : 
+  . postcss-hexrgba : 
     plugin that adds shorthand hex methods to rgba() values.
-  >postcss-imports : 
+  . postcss-imports : 
     this plugin can consume local files, node modules or web_modules. 
-  > autoprefixer : 
+  . autoprefixer : 
     A plugin to parse CSS and add vendor prefixes to CSS rules using values from Can I Use.
     Write your CSS rules without vendor prefixes...
 
