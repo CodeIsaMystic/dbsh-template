@@ -58,14 +58,18 @@ npm run dev
 
 
 ## Design & CSS
-Having notions, experiencing UI/UX Design following and being aware of design "tendance", optimizing our development.
-Handling a mission with a real design effort in terms of design core principles, systems and experimenting tools...  
+Having notions, experiencing UI/UX Design following and being aware of design "Tendances". 
+Optimizing our development. Handling a project, a mission a work on a real design effort 
+respecting the core principles, systems and kowing how to experiment some tools...  
 
 
 ### Modern Conceptual Design: 
 
-  The perception of patterns, made in practical way for users, beautiful and efficient, needs to have a 
-  real visual of design notions. Bring some air, spaces, fluid composition. Think in terms of atoms, molecules, components & organisms without never forget the key principles of the frontend developer like accessibility, performance or responsivness... 
+  The perception of patterns, made in practical way for users, beautiful and efficient. It needs to keep
+  in mind some design notions, visualizing. 
+  Bring some air, spaces, fluid composition. Thinking in terms of atoms, molecules, components & organisms 
+  without never forgetting the key principles of the frontend developer like organization, files architecture, 
+  accessibility, performance or responsivness... 
 
 ### Style Guide
 
