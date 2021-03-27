@@ -17,7 +17,7 @@
 @import 'layout/_site-about';
 @import 'layout/_site-services';
 @import 'layout/_site-testimonials';
-@import 'layout/_site-form';
+@import 'layout/_site-contact';
 @import 'layout/_site-footer';
 
 
@@ -27,6 +27,7 @@
 @import 'modules/_headings';
 @import 'modules/_service-item';
 @import 'modules/_testimonial-cards';
+@import 'modules/_contact-form';
 
 
 @import 'state/_reveal-item';

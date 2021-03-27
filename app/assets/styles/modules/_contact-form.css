@@ -1,26 +1,10 @@
-.site-form {
-  background-color: rgba($lightColor, .25);
-
-  & h4 { 
-    margin-bottom: 7.5rem;
-  
-  @mixin atMedium { margin-bottom: 12rem; }
-  }
-}
-
-
-.contact__form {
-  width: 100%;
-  margin: 0 auto;
-}
-
-.form {
+.contact-form  {
   width: 100%;
   margin: 0 auto 50px;
   padding: 0 0 15px;
   text-align: center;
 
-  &__group {
+  & .form-group {
     width: 80%;
     margin: 0 auto;
 
@@ -29,7 +13,7 @@
 
 
   /*   form__text  => textarea  */
-  &__input {
+  & .form-input {
     display: block;
     width: 90%;
     padding: .8rem 1rem;
@@ -54,22 +38,9 @@
 
     /*  =When focused & invalid text  */
     &:focus:invalid {  outline: 1px solid $mainAccentDark;  }
-
-    /*   =Become darker when typing (chrome & safari) */
-    &::-webkit-input-placeholder {  color: $darkColor;  } 
-
-    /*   =Trying to custom textarea placeholder */
-    &::-webkit-input-placeholder,
-    &:-moz-placeholder, 
-    &::-moz-placeholder,
-    &:-ms-input-placeholder,
-    &::placeholder {
-      opacity: 1;
-      color: $darkColor;
-    }
   }
 
-  &__label {
+  & .form-label {
     display: block;
     width: 90%;
     padding: 0.8rem 1rem;
@@ -82,17 +53,13 @@
   }
 
   /*  =Make the label disappear  */
-  &__input:placeholder-shown + &__label {
+  & .form-input:placeholder-shown + .form-label {
     opacity: 0;
     visibility: hidden;
     transform: translateY(-4rem);
   }
-}
 
-
-  /* =Form button */
-  .form-btn {
-    display: block;
+  & button {
     width: 60%;
     margin: 4rem auto 0;
     cursor: pointer;    
@@ -100,3 +67,4 @@
     
     @mixin atSmall {  width: 30%;  }
   }
+}
