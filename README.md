@@ -1,6 +1,5 @@
 <div align="center">
 
-<h1>D.B.S.H Template</h1>
 
 <a href="#">
   <img
@@ -10,6 +9,8 @@
     src="app/assets/img/icons/logo-dbsh--light.svg"
   />
 </a>
+
+<h1 align="left">D.B.S.H Template</h1>
 
 <p>A simple page's template introducing a personal trainer, could be useful to any professional activity, introducing a local professional having a window open to the web. This is a single page application but can easily be upgraded to multi-pages, with more functionalities...</p>
 
