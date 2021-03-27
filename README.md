@@ -100,7 +100,7 @@ I used on this project some of the most populars node packages to my workflow, y
 
     . @babel/preset-env : A smart preset that allows you to use the latest JavaScript without needing to micromanage which syntax transforms (and optionally, browser polyfills) are needed by your target environment(s). 
       This both makes your life easier and JavaScript bundles smaller!
-      
+
     . babel-loader : This package allows transpiling JavaScript files using Babel and webpack.
 
 
@@ -108,21 +108,19 @@ I used on this project some of the most populars node packages to my workflow, y
 #### PostCSS:
   A tool for transforming CSS with Javascript.
     
-    . postcss-loader : 
-      loader to process Css using postCSS.
-    . postcss-mixins : 
-      plugin for mixins.
-    . postcss-nested : 
-      plugin to unwrap nested rules like how Sass does it.
-    . postcss-simple-vars : 
-      plugin for Sass-like variables.
-    . postcss-hexrgba : 
-      plugin that adds shorthand hex methods to rgba() values.
-    . postcss-imports : 
-      this plugin can consume local files, node modules or web_modules. 
-    . autoprefixer : 
-      A plugin to parse CSS and add vendor prefixes to CSS rules using values from Can I Use.
-      Write your CSS rules without vendor prefixes...
+    . postcss-loader : loader to process Css using postCSS.
+
+    . postcss-mixins : plugin for mixins.
+
+    . postcss-nested : plugin to unwrap nested rules like how Sass does it.
+
+    . postcss-simple-vars : plugin for Sass-like variables.
+
+    . postcss-hexrgba : plugin that adds shorthand hex methods to rgba() values.
+
+    . postcss-imports : this plugin can consume local files, node modules or web_modules. 
+
+    . autoprefixer : A plugin to parse CSS and add vendor prefixes to CSS rules using values from Can I Use. Write your CSS rules without vendor prefixes...
 
 
 ### Additionals plugins & loader
