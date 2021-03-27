@@ -20,7 +20,7 @@
     height="634"
     width="928"
     alt="screen of dbsh single page"
-    src="app/project-mockup/screen-dbsh.png"
+    src="project-mockup/screen-dbsh.png"
   />
 </a>
 
@@ -79,7 +79,7 @@ respecting the core principles, systems and kowing how to experiment some tools.
     height="1591"
     width="680"
     alt="image content exposing the main styles guide"
-    src="app/project-mockup/dbsh-style-guide.png"
+    src="project-mockup/dbsh-style-guide.png"
   />
 
 <br />

@@ -1,21 +1,17 @@
 .site-form {
   background-color: rgba($lightColor, .25);
 
-  & h3 { 
-    padding-bottom: 7.5rem;
+  & h4 { 
+    margin-bottom: 7.5rem;
   
-  @mixin atMedium { padding-bottom: 12rem; }
+  @mixin atMedium { margin-bottom: 12rem; }
   }
 }
 
 
 .contact__form {
   width: 100%;
-  padding: 2.5rem 0;
   margin: 0 auto;
-  
-  @mixin atSmall  {  padding: 4.5rem 2rem 0;  }
-  @mixin atMedium {  padding: 7rem 2rem 0;  }
 }
 
 .form {

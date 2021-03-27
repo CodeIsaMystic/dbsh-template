@@ -1,4 +1,12 @@
 .site-testimonials {
   background: url('assets/img/testimonials-bg.jpg') top center no-repeat;
   background-size: cover;
+
+  & h4 {
+    margin-bottom: 12rem;
+
+    @mixin atMedium {
+      margin-bottom: 17rem;
+    }
+  }
 }

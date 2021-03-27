@@ -56,9 +56,8 @@
     @mixin atLarge  {  font-size: 4.6rem;  }
   }
 
-  &__description {
-    margin: 0 auto;
-    padding-top: 1rem;
+  &__subtitle2 {
+    margin: 1rem auto 0;
     font-weight: 300;
     font-size: 1.8rem;
     text-shadow: 2px 2px 0 rgba(0, 0, 0, .3);

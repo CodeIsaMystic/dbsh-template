@@ -63,7 +63,7 @@
         opacity: .8;
       }
 
-      &.is-current-link {
+      & .is-current-link {
         font-weight: 400;
         color: $mainAccent;
       }
