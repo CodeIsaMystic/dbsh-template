@@ -94,9 +94,9 @@ The B.E.M Methodology, the S.M.A.CSS files architecture and some notions of mode
 
 ## Dependencies, Plugins & Loaders
 
-### Webpack, Babel, PostCSS...
-
 I used on this project some of the most populars node packages to my workflow, you can easily have a look on package.json file. All the configuration, settings and scripts are defined on the webpack.config.js
+
+### Webpack, Babel, PostCSS...
 
 #### Webpack: 
   A static module bundler for modern JavaScript applications. Processing your application, it internally 
