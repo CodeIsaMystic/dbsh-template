@@ -80,25 +80,18 @@ I used on this project some of the most populars node packages to my workflow, y
 
 NPM Packages:
 
-. webpack-cli
-
-  The command line interface.
-
-. webpack-dev-server
-  
-  Used to quickly develop an application. See the development guide to get started.
-
-. html-webpack-plugin
-
-  That simplifies creation of HTML files to serve your webpack bundles. This is especially useful 
-  for webpack bundles that include a hash in the filename which changes every compilation. You can 
-  either let the plugin generate an HTML file for you, supply your own template using lodash 
-  templates or use your own loader.
-
-. clean-webpack-plugin
-
-  This plugin will remove all files inside webpack's output.path directory, as 
-  well as all unused webpack assets after every successful rebuild.
+  . webpack-cli
+      The command line interface.
+  . webpack-dev-server
+      Used to quickly develop an application. See the development guide to get started. 
+  . html-webpack-plugin
+      That simplifies creation of HTML files to serve your webpack bundles. This is especially useful 
+      for webpack bundles that include a hash in the filename which changes every compilation. You can 
+      either let the plugin generate an HTML file for you, supply your own template using lodash 
+      templates or use your own loader.
+  . clean-webpack-plugin
+      This plugin will remove all files inside webpack's output.path directory, as 
+      well as all unused webpack assets after every successful rebuild.
 
 
 
