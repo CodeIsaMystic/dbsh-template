@@ -64,8 +64,8 @@ The B.E.M Methodology, the S.M.A.CSS files architecture and some notions of mode
 I used on this project some of the most populars node packages to my workflow, you can easily have a look on package.json file. All the configuration, settings and scripts are defined on the webpack.config.js
 
 #### Webpack: 
-    A static module bundler for modern JavaScript applications. Processing your application, it internally 
-    builds a dependency graph which maps every module your project needs and generates one or more bundles.
+  A static module bundler for modern JavaScript applications. Processing your application, it internally 
+  builds a dependency graph which maps every module your project needs and generates one or more bundles.
 
     Core Concepts:
       . Entry
@@ -76,8 +76,10 @@ I used on this project some of the most populars node packages to my workflow, y
       . Browser Compatibility
 
 
-  NPM Packages:
-  
+
+
+NPM Packages:
+
   . webpack-cli
 
     The command line interface.
@@ -99,8 +101,8 @@ I used on this project some of the most populars node packages to my workflow, y
     well as all unused webpack assets after every successful rebuild.
 
 #### Babel:
-    Babel is a toolchain that is mainly used to convert ECMAScript 2015+ code into a backwards compatible
-    version of JavaScript in current and older browsers or environments. 
+  Babel is a toolchain that is mainly used to convert ECMAScript 2015+ code into a backwards compatible
+  version of JavaScript in current and older browsers or environments. 
 
   . @babel/core : 
     Babel compiler core.
