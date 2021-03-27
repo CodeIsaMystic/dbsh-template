@@ -58,11 +58,14 @@ npm run dev
 
 
 ## Design & CSS
+Having notions, experiencing UI/UX Design following and being aware of design "tendance", optimizing our development.
+Handling a mission with a real design effort in terms of design core principles, systems and experimenting tools...  
 
-### B.E.M Methodology and Atomic Design
 
-The B.E.M Methodology, the S.M.A.CSS files architecture and some notions of moder web design was used here on this project. It was a nice way to learn and practice those techniques with this project not so large...
+### Modern Conceptual Design: 
 
+  The perception of patterns, made in practical way for users, beautiful and efficient, needs to have a 
+  real visual of design notions. Bring some air, spaces, fluid composition. Think in terms of atoms, molecules, components & organisms without never forget the key principles of the frontend developer like accessibility, performance or responsivness... 
 
 ### Style Guide
 
@@ -78,6 +81,10 @@ The B.E.M Methodology, the S.M.A.CSS files architecture and some notions of mode
 <br />
 
 </div>
+
+### B.E.M Methodology, components, clean code & class names
+
+The B.E.M Methodology, the S.M.A.CSS files architecture and some notions of moder web design was used here on this project. It was a nice way to learn and practice those techniques with this project not so large...
 
 
 
@@ -102,7 +109,7 @@ I used on this project some of the most populars node packages to my workflow, y
 
 
 
-  NPM Packages:
+  NPM Webpack's Packages:
 
     . webpack-cli: the command line interface.
 
@@ -183,7 +190,9 @@ I used on this project some of the most populars node packages to my workflow, y
 
 
 
-  2. Babel, "The Javascript Compiler":
+  2. A simple and Efficient Files Architecture
+  
+  ### Babel, "The Javascript Compiler":
 
   Babel is a toolchain that is mainly used to convert ECMAScript 2015+ code into a backwards compatible
    version of JavaScript in current and older browsers or environments. 
