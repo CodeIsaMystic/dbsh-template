@@ -91,46 +91,62 @@ I used on this project some of the most populars node packages to my workflow, y
     Babel is a toolchain that is mainly used to convert ECMAScript 2015+ code into a backwards compatible
     version of JavaScript in current and older browsers or environments. 
 
-  > @babel/core : Babel compiler core.
-  > @babel/preset-env : A smart preset that allows you to use the latest JavaScript without needing to micromanage which syntax transforms (and optionally, browser polyfills) are needed by your target environment(s). This both makes your life easier and JavaScript bundles smaller!
-  > babel-loader : This package allows transpiling JavaScript files using Babel and webpack.
+  > @babel/core : 
+    Babel compiler core.
+  > @babel/preset-env : 
+    A smart preset that allows you to use the latest JavaScript without needing to micromanage which syntax transforms (and optionally, browser polyfills) are needed by your target environment(s). 
+    This both makes your life easier and JavaScript bundles smaller!
+  > babel-loader : 
+    This package allows transpiling JavaScript files using Babel and webpack.
 
 
 
 #### PostCSS:
   A tool for transforming CSS with Javascript.
     
-  > postcss-loader : loader to process Css using postCSS.
-  > postcss-mixins : plugin for mixins.
-  > postcss-nested : plugin to unwrap nested rules like how Sass does it.
-  > postcss-simple-vars : plugin for Sass-like variables.
-  > postcss-hexrgba : plugin that adds shorthand hex methods to rgba() values.
-  >postcss-imports : this plugin can consume local files, node modules or web_modules. 
-  > autoprefixer : A plugin to parse CSS and add vendor prefixes to CSS rules using values from Can I Use.
+  > postcss-loader : 
+    loader to process Css using postCSS.
+  > postcss-mixins : 
+    plugin for mixins.
+  > postcss-nested : 
+    plugin to unwrap nested rules like how Sass does it.
+  > postcss-simple-vars : 
+    plugin for Sass-like variables.
+  > postcss-hexrgba : 
+    plugin that adds shorthand hex methods to rgba() values.
+  >postcss-imports : 
+    this plugin can consume local files, node modules or web_modules. 
+  > autoprefixer : 
+    A plugin to parse CSS and add vendor prefixes to CSS rules using values from Can I Use.
     Write your CSS rules without vendor prefixes...
 
 
 ### Additionals plugins & loader
   1. Mini CSS extract plugin:
-    Extracts CSS into separate files. It creates a CSS file per JS file which contains CSS. It supports On-Demand-Loading of CSS and SourceMaps.
 
-    It builds on top of a new webpack v4 feature (module types) and requires webpack 4 to work.
+    Extracts CSS into separate files. It creates a CSS file per JS file which contains CSS. It supports On-Demand-Loading of CSS and SourceMaps.
+    (It builds on top of a new webpack v4 feature and requires webpack 4 to work)
 
   2. CSS nano:
+    
     cssnano takes your nicely formatted CSS and runs it through many focused optimisations, to ensure that 
     the final result is as small as possible for a production environment.
 
   3. Style Loader:
+    
     Injects CSS styles to the DOM.
   
   4. Fs Extra:
-   Adds file system methods that aren't included in the native fs module and adds promise support to the 
-   fs methods. It also uses graceful-fs to prevent EMFILE errors. It should be a drop in replacement for fs.
+   
+    Adds file system methods that aren't included in the native fs module and adds promise support to the 
+    fs methods. It also uses graceful-fs to prevent EMFILE errors. It should be a drop in replacement for fs.
 
   5. Lodash: 
+   
     makes JavaScript easier by working with arrays, numbers, objects, strings, etc.
 
   6. LazySizes: 
+    
     a fast, SEO-friendly and self-initializing lazyloader for images (including responsive images picture/srcset), iframes, scripts/widgets and much more. It also prioritizes resources by differentiating between crucial in view and near view elements to make perceived performance even faster.
 
 
