@@ -52,23 +52,29 @@ class Modal {
                 tabindex="0">
             Seulement 2 minutes pour remplir ce formulaire ...
           </h3>
+
+          <!-- heading tertiary -->
+          <h4 class="heading heading-tertiary heading-dark" tabindex="0">
+            Si tu veux plus d'informations et
+            <strong>que l'on t'aide dans tes objectifs</strong>...
+          </h4>
           
 
           <!-- Form section -->
-          <form class="form" id="form" action="#">
+          <form class="contact-form" id="form" action="#">
 
-            <div class="form__group">
-              <input class="form__input" type="text" name="lastname" id="lastname" placeholder="Votre nom" tabindex="0" aria-required="true" required>
-              <label class="form__label" for="lastname">Nom</label>
+            <div class="form-group">
+              <input class="form-input" type="text" name="lastname" id="lastname" placeholder="Votre nom" tabindex="0" aria-required="true" required>
+              <label class="form-label" for="lastname">Nom</label>
             </div>
 
 
-            <div class="form__group">
-              <input class="form__input" type="email" name="email" id="email" placeholder="Votre email" tabindex="0" aria-required="true" required>
-              <label class="form__label" for="email">Email</label>
+            <div class="form-group">
+              <input class="form-input" type="email" name="email" id="email" placeholder="Votre email" tabindex="0" aria-required="true" required>
+              <label class="form-label" for="email">Email</label>
             </div>
   
-            <button class="form-btn btn btn--large btn--accent" type="submit" id="submit">
+            <button class="btn-form btn btn--large btn--accent" type="submit" id="submit">
               C'est Parti  &rarr;
             </button>
   
