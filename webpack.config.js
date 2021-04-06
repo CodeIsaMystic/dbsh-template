@@ -34,10 +34,6 @@ let cssConfig = {
     }
   ]
 };
-// add this short code on the rules:use:
-//            'css-loader?url=false',
-//right after 'style-loader',  and before [loader:]
-// to manage ourself our bg-img on a css file
 
 let pages = fse
   .readdirSync('./app')

@@ -1,7 +1,7 @@
 {
-  "name": "db-sports-experience",
-  "version": "1.0.0",
-  "description": "Building a porfolio website for a coach",
+  "name": "dbsh-template",
+  "version": "2.0.0",
+  "description": "A single Page Template",
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server",
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CodeIsaMystic/PostCSS-starter-pack.git"
+    "url": "git+https://github.com/CodeIsaMystic/DB-sportsandevents.git"
   },
   "keywords": [],
   "author": "JoWd",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/CodeIsaMystic/PostCSS-starter-pack/issues"
+    "url": "https://github.com/CodeIsaMystic/DB-sportsandevents/issues"
   },
-  "homepage": "https://github.com/CodeIsaMystic/PostCSS-starter-pack#readme",
+  "homepage": "https://github.com/CodeIsaMystic/DB-sportsandevents#readme",
   "dependencies": {
     "lazysizes": "^5.2.2",
     "lodash": "^4.17.19",
