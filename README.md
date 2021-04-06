@@ -79,7 +79,7 @@ respecting the core principles, systems and kowing how to experiment some tools.
     height="1591"
     width="680"
     alt="image content exposing the main styles guide"
-    src="project-mockup/dbsh-style-guide.png"
+    src="app/assets/img/dbsh-style-guide.png"
   />
 
 <br />
