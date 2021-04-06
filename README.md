@@ -17,10 +17,10 @@
 
 <a href="#">
   <img
-    height="634"
+    height="317"
     width="928"
     alt="screen of dbsh single page"
-    src="project-mockup/screen-dbsh.png"
+    src="app/assets/img/screen-dbsh.png"
   />
 </a>
 
