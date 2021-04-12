@@ -28,8 +28,6 @@
     text-shadow: 1px 1px 6px rgba(0, 0, 0, .9);
     color: $lightColor;
 
-    animation: moveInLeft 1s ease-out;
-
     @mixin atXSmall {  font-size: 4rem;  }
     @mixin atSmall  {  font-size: 5rem;  }
     @mixin atMedium {  font-size: 6rem;  }
@@ -42,8 +40,6 @@
     font-weight: 300;
     text-shadow: 1px 1px 6px rgba(0, 0, 0, .3);
     color: $lightColor;
-
-    animation: moveInRight 1s ease-out;
 
     @mixin atXSmall {  font-size: 2.3rem;  }
 
