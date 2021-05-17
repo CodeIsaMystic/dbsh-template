@@ -38,12 +38,6 @@ class Modal {
       <div class="modal__inner">
 
         <!-- Modal title -->
-        <h2   class="heading heading-primary heading-primary--modal heading-dark" 
-              id="dialog-title" 
-              tabindex="0">
-          Commences Dès Aujourd'hui !
-        </h2>
-
         <div class="wrapper">
 
           <!-- heading secondary -->
@@ -72,6 +66,12 @@ class Modal {
             <div class="form-group">
               <input class="form-input" type="email" name="email" id="email" placeholder="Votre email" tabindex="0" aria-required="true" required>
               <label class="form-label" for="email">Email</label>
+            </div>
+              
+            <div class="form-group">
+              <textarea class="form-input" name="message" id="message" placeholder="Votre message"
+                aria-required="true" required></textarea>
+              <label class="form-label" for="message">Message</label>
             </div>
   
             <button class="btn-form btn btn--large btn--accent" type="submit" id="submit">
