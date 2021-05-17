@@ -1,5 +1,5 @@
 .site-contact {
-  background-color: rgba($lightColor, .25);
+  background-color: rgba($lightColor);
 
   & h4 { 
     margin-bottom: 7.5rem;
