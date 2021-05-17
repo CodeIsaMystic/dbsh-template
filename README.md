@@ -17,7 +17,7 @@
 
 <a href="#">
   <img
-    height="317"
+    height="auto"
     width="928"
     alt="screen of dbsh single page"
     src="app/assets/img/screen-dbsh.png"
@@ -76,7 +76,7 @@ respecting the core principles, systems and kowing how to experiment some tools.
 <div align="center">
 
   <img
-    height="1591"
+    height="auto"
     width="680"
     alt="image content exposing the main styles guide"
     src="app/assets/img/dbsh-style-guide.png"
